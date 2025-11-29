@@ -1,0 +1,619 @@
+{
+  "model": "MobileNetV2",
+  "method": "RandomSparse",
+  "parameters": {
+    "max_pixels": 10,
+    "perturbation_size": 0.2,
+    "max_attempts": 50
+  },
+  "asr": 33.0,
+  "success_count": 33,
+  "total_samples": 100,
+  "avg_l0": 8.181818181818182,
+  "avg_l2": 0.9308933272506251,
+  "avg_ssim": 0.9721326231956482,
+  "avg_time": 0.7489473176002502,
+  "std_l0": 1.8822060791841861,
+  "std_l2": 0.13400924910760592,
+  "detailed_results": [
+    {
+      "sample_id": 0,
+      "success": false,
+      "time": 0.9164550304412842
+    },
+    {
+      "sample_id": 1,
+      "success": true,
+      "l0": 6.0,
+      "l2": 0.8485281467437744,
+      "ssim": 0.9850513935089111,
+      "time": 0.07712149620056152
+    },
+    {
+      "sample_id": 7,
+      "success": true,
+      "l0": 10.0,
+      "l2": 1.0683810710906982,
+      "ssim": 0.951138436794281,
+      "time": 0.09334444999694824
+    },
+    {
+      "sample_id": 12,
+      "success": true,
+      "l0": 9.0,
+      "l2": 0.9564769864082336,
+      "ssim": 0.9762480854988098,
+      "time": 0.25802063941955566
+    },
+    {
+      "sample_id": 13,
+      "success": false,
+      "time": 0.9122905731201172
+    },
+    {
+      "sample_id": 16,
+      "success": false,
+      "time": 0.9547884464263916
+    },
+    {
+      "sample_id": 21,
+      "success": false,
+      "time": 0.9524345397949219
+    },
+    {
+      "sample_id": 24,
+      "success": true,
+      "l0": 7.0,
+      "l2": 0.9067562222480774,
+      "ssim": 0.9871236681938171,
+      "time": 0.13999032974243164
+    },
+    {
+      "sample_id": 32,
+      "success": false,
+      "time": 0.890512228012085
+    },
+    {
+      "sample_id": 39,
+      "success": false,
+      "time": 0.9286453723907471
+    },
+    {
+      "sample_id": 42,
+      "success": false,
+      "time": 1.0462985038757324
+    },
+    {
+      "sample_id": 46,
+      "success": false,
+      "time": 1.1432907581329346
+    },
+    {
+      "sample_id": 54,
+      "success": false,
+      "time": 1.003235101699829
+    },
+    {
+      "sample_id": 61,
+      "success": true,
+      "l0": 8.0,
+      "l2": 0.9700791239738464,
+      "ssim": 0.9777001738548279,
+      "time": 0.37104272842407227
+    },
+    {
+      "sample_id": 63,
+      "success": false,
+      "time": 1.0720396041870117
+    },
+    {
+      "sample_id": 72,
+      "success": false,
+      "time": 0.9651467800140381
+    },
+    {
+      "sample_id": 73,
+      "success": true,
+      "l0": 10.0,
+      "l2": 1.0954450368881226,
+      "ssim": 0.9359414577484131,
+      "time": 0.3119642734527588
+    },
+    {
+      "sample_id": 75,
+      "success": false,
+      "time": 0.9554224014282227
+    },
+    {
+      "sample_id": 80,
+      "success": true,
+      "l0": 8.0,
+      "l2": 0.8192042708396912,
+      "ssim": 0.9766216278076172,
+      "time": 0.075347900390625
+    },
+    {
+      "sample_id": 85,
+      "success": false,
+      "time": 0.9970071315765381
+    },
+    {
+      "sample_id": 91,
+      "success": false,
+      "time": 1.0036332607269287
+    },
+    {
+      "sample_id": 92,
+      "success": true,
+      "l0": 8.0,
+      "l2": 0.9141797423362732,
+      "ssim": 0.9818028807640076,
+      "time": 0.30722951889038086
+    },
+    {
+      "sample_id": 94,
+      "success": true,
+      "l0": 2.0,
+      "l2": 0.4898979663848877,
+      "ssim": 0.9908494353294373,
+      "time": 0.08013415336608887
+    },
+    {
+      "sample_id": 98,
+      "success": false,
+      "time": 0.8831615447998047
+    },
+    {
+      "sample_id": 101,
+      "success": true,
+      "l0": 10.0,
+      "l2": 1.0954450368881226,
+      "ssim": 0.9485542178153992,
+      "time": 0.38109469413757324
+    },
+    {
+      "sample_id": 102,
+      "success": true,
+      "l0": 6.0,
+      "l2": 0.6779891848564148,
+      "ssim": 0.9932281970977783,
+      "time": 0.5754549503326416
+    },
+    {
+      "sample_id": 103,
+      "success": true,
+      "l0": 8.0,
+      "l2": 0.9222358465194702,
+      "ssim": 0.973426342010498,
+      "time": 0.11068344116210938
+    },
+    {
+      "sample_id": 106,
+      "success": false,
+      "time": 0.9345409870147705
+    },
+    {
+      "sample_id": 110,
+      "success": false,
+      "time": 0.927419900894165
+    },
+    {
+      "sample_id": 111,
+      "success": false,
+      "time": 0.8952362537384033
+    },
+    {
+      "sample_id": 115,
+      "success": false,
+      "time": 0.8811285495758057
+    },
+    {
+      "sample_id": 117,
+      "success": false,
+      "time": 0.8459072113037109
+    },
+    {
+      "sample_id": 121,
+      "success": false,
+      "time": 1.0410575866699219
+    },
+    {
+      "sample_id": 123,
+      "success": true,
+      "l0": 8.0,
+      "l2": 0.9491410851478577,
+      "ssim": 0.9142268300056458,
+      "time": 0.10287928581237793
+    },
+    {
+      "sample_id": 127,
+      "success": true,
+      "l0": 8.0,
+      "l2": 0.9797959327697754,
+      "ssim": 0.9863836765289307,
+      "time": 0.32224273681640625
+    },
+    {
+      "sample_id": 130,
+      "success": false,
+      "time": 1.1030211448669434
+    },
+    {
+      "sample_id": 141,
+      "success": false,
+      "time": 1.1116275787353516
+    },
+    {
+      "sample_id": 148,
+      "success": false,
+      "time": 1.1449205875396729
+    },
+    {
+      "sample_id": 150,
+      "success": true,
+      "l0": 9.0,
+      "l2": 0.9855706095695496,
+      "ssim": 0.9848152995109558,
+      "time": 0.19471216201782227
+    },
+    {
+      "sample_id": 159,
+      "success": false,
+      "time": 1.014075756072998
+    },
+    {
+      "sample_id": 165,
+      "success": false,
+      "time": 0.9947750568389893
+    },
+    {
+      "sample_id": 168,
+      "success": true,
+      "l0": 10.0,
+      "l2": 1.030880331993103,
+      "ssim": 0.9743895530700684,
+      "time": 0.07219552993774414
+    },
+    {
+      "sample_id": 173,
+      "success": true,
+      "l0": 9.0,
+      "l2": 0.998799741268158,
+      "ssim": 0.9789692759513855,
+      "time": 0.07979488372802734
+    },
+    {
+      "sample_id": 176,
+      "success": false,
+      "time": 1.0096125602722168
+    },
+    {
+      "sample_id": 181,
+      "success": false,
+      "time": 1.0141892433166504
+    },
+    {
+      "sample_id": 182,
+      "success": true,
+      "l0": 5.0,
+      "l2": 0.7670953273773193,
+      "ssim": 0.9931184649467468,
+      "time": 0.5893478393554688
+    },
+    {
+      "sample_id": 185,
+      "success": true,
+      "l0": 10.0,
+      "l2": 1.080176830291748,
+      "ssim": 0.9364585876464844,
+      "time": 0.08345627784729004
+    },
+    {
+      "sample_id": 187,
+      "success": false,
+      "time": 1.029240608215332
+    },
+    {
+      "sample_id": 200,
+      "success": false,
+      "time": 1.0415832996368408
+    },
+    {
+      "sample_id": 202,
+      "success": false,
+      "time": 0.9341566562652588
+    },
+    {
+      "sample_id": 205,
+      "success": false,
+      "time": 1.010174036026001
+    },
+    {
+      "sample_id": 207,
+      "success": true,
+      "l0": 8.0,
+      "l2": 0.9494975209236145,
+      "ssim": 0.9851624369621277,
+      "time": 0.20561623573303223
+    },
+    {
+      "sample_id": 211,
+      "success": false,
+      "time": 0.9586284160614014
+    },
+    {
+      "sample_id": 212,
+      "success": true,
+      "l0": 9.0,
+      "l2": 0.9062896370887756,
+      "ssim": 0.982219398021698,
+      "time": 0.06551003456115723
+    },
+    {
+      "sample_id": 216,
+      "success": false,
+      "time": 0.9346134662628174
+    },
+    {
+      "sample_id": 230,
+      "success": false,
+      "time": 1.09627103805542
+    },
+    {
+      "sample_id": 232,
+      "success": true,
+      "l0": 6.0,
+      "l2": 0.7190279364585876,
+      "ssim": 0.983561098575592,
+      "time": 0.17911767959594727
+    },
+    {
+      "sample_id": 235,
+      "success": false,
+      "time": 1.0230648517608643
+    },
+    {
+      "sample_id": 238,
+      "success": false,
+      "time": 1.0029981136322021
+    },
+    {
+      "sample_id": 245,
+      "success": false,
+      "time": 1.0191407203674316
+    },
+    {
+      "sample_id": 249,
+      "success": true,
+      "l0": 8.0,
+      "l2": 0.8614785671234131,
+      "ssim": 0.971015453338623,
+      "time": 0.4419879913330078
+    },
+    {
+      "sample_id": 250,
+      "success": false,
+      "time": 1.0381691455841064
+    },
+    {
+      "sample_id": 251,
+      "success": true,
+      "l0": 9.0,
+      "l2": 0.9691274762153625,
+      "ssim": 0.9702694416046143,
+      "time": 0.09790635108947754
+    },
+    {
+      "sample_id": 256,
+      "success": false,
+      "time": 1.04524827003479
+    },
+    {
+      "sample_id": 264,
+      "success": false,
+      "time": 1.0255043506622314
+    },
+    {
+      "sample_id": 267,
+      "success": false,
+      "time": 1.0563709735870361
+    },
+    {
+      "sample_id": 271,
+      "success": true,
+      "l0": 9.0,
+      "l2": 1.0316482782363892,
+      "ssim": 0.9676666259765625,
+      "time": 0.08911752700805664
+    },
+    {
+      "sample_id": 273,
+      "success": false,
+      "time": 0.9479475021362305
+    },
+    {
+      "sample_id": 275,
+      "success": false,
+      "time": 1.0194792747497559
+    },
+    {
+      "sample_id": 276,
+      "success": false,
+      "time": 0.9906256198883057
+    },
+    {
+      "sample_id": 277,
+      "success": true,
+      "l0": 10.0,
+      "l2": 1.0652023553848267,
+      "ssim": 0.9826357960700989,
+      "time": 0.08390593528747559
+    },
+    {
+      "sample_id": 278,
+      "success": true,
+      "l0": 8.0,
+      "l2": 0.9797959327697754,
+      "ssim": 0.9744203090667725,
+      "time": 0.11919307708740234
+    },
+    {
+      "sample_id": 291,
+      "success": false,
+      "time": 1.0026168823242188
+    },
+    {
+      "sample_id": 294,
+      "success": false,
+      "time": 0.9534127712249756
+    },
+    {
+      "sample_id": 296,
+      "success": true,
+      "l0": 10.0,
+      "l2": 0.9927070140838623,
+      "ssim": 0.987830400466919,
+      "time": 0.08069086074829102
+    },
+    {
+      "sample_id": 297,
+      "success": false,
+      "time": 1.0291802883148193
+    },
+    {
+      "sample_id": 298,
+      "success": false,
+      "time": 0.9718177318572998
+    },
+    {
+      "sample_id": 302,
+      "success": false,
+      "time": 0.952723503112793
+    },
+    {
+      "sample_id": 311,
+      "success": false,
+      "time": 1.0928544998168945
+    },
+    {
+      "sample_id": 312,
+      "success": true,
+      "l0": 4.0,
+      "l2": 0.6928203105926514,
+      "ssim": 0.9737956523895264,
+      "time": 0.11110877990722656
+    },
+    {
+      "sample_id": 318,
+      "success": false,
+      "time": 1.2391986846923828
+    },
+    {
+      "sample_id": 319,
+      "success": false,
+      "time": 1.047975778579712
+    },
+    {
+      "sample_id": 320,
+      "success": false,
+      "time": 1.0443179607391357
+    },
+    {
+      "sample_id": 323,
+      "success": false,
+      "time": 1.0341174602508545
+    },
+    {
+      "sample_id": 327,
+      "success": false,
+      "time": 1.0007147789001465
+    },
+    {
+      "sample_id": 332,
+      "success": false,
+      "time": 1.0418097972869873
+    },
+    {
+      "sample_id": 336,
+      "success": false,
+      "time": 1.0716626644134521
+    },
+    {
+      "sample_id": 340,
+      "success": true,
+      "l0": 9.0,
+      "l2": 1.039230465888977,
+      "ssim": 0.9772183895111084,
+      "time": 0.07585597038269043
+    },
+    {
+      "sample_id": 343,
+      "success": false,
+      "time": 1.0114569664001465
+    },
+    {
+      "sample_id": 345,
+      "success": true,
+      "l0": 10.0,
+      "l2": 1.0359995365142822,
+      "ssim": 0.9795515537261963,
+      "time": 0.12070608139038086
+    },
+    {
+      "sample_id": 348,
+      "success": false,
+      "time": 1.1200189590454102
+    },
+    {
+      "sample_id": 353,
+      "success": false,
+      "time": 1.1163814067840576
+    },
+    {
+      "sample_id": 356,
+      "success": false,
+      "time": 1.2058537006378174
+    },
+    {
+      "sample_id": 359,
+      "success": true,
+      "l0": 10.0,
+      "l2": 0.9885620474815369,
+      "ssim": 0.9191127419471741,
+      "time": 0.14679169654846191
+    },
+    {
+      "sample_id": 361,
+      "success": false,
+      "time": 1.3378922939300537
+    },
+    {
+      "sample_id": 362,
+      "success": true,
+      "l0": 9.0,
+      "l2": 0.9320142269134521,
+      "ssim": 0.9798686504364014,
+      "time": 0.28496837615966797
+    },
+    {
+      "sample_id": 365,
+      "success": false,
+      "time": 1.068101167678833
+    },
+    {
+      "sample_id": 367,
+      "success": false,
+      "time": 1.0828280448913574
+    },
+    {
+      "sample_id": 368,
+      "success": false,
+      "time": 1.1991069316864014
+    },
+    {
+      "sample_id": 371,
+      "success": false,
+      "time": 1.2270655632019043
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "method": "PixelGrad",
+  "params": {
+    "max_pixels": 10,
+    "alpha": 0.2,
+    "beta": 0.9
+  },
+  "samples": [
+    {
+      "idx": 108,
+      "success": false,
+      "time": 0.1631913185119629
+    },
+    {
+      "idx": 15,
+      "success": false,
+      "time": 0.13783478736877441
+    },
+    {
+      "idx": 32,
+      "success": true,
+      "l0": 2,
+      "l2": 0.3711559474468231,
+      "ssim": 0.9979076981544495,
+      "time": 0.03325247764587402,
+      "modified_pixels": 2
+    },
+    {
+      "idx": 184,
+      "success": true,
+      "l0": 1,
+      "l2": 0.2577889859676361,
+      "ssim": 0.9994490742683411,
+      "time": 0.01969122886657715,
+      "modified_pixels": 1
+    },
+    {
+      "idx": 151,
+      "success": false,
+      "time": 0.14244365692138672
+    },
+    {
+      "idx": 135,
+      "success": false,
+      "time": 0.1442737579345703
+    },
+    {
+      "idx": 80,
+      "success": false,
+      "time": 0.14288592338562012
+    },
+    {
+      "idx": 198,
+      "success": false,
+      "time": 0.13470101356506348
+    },
+    {
+      "idx": 202,
+      "success": false,
+      "time": 0.14212679862976074
+    },
+    {
+      "idx": 49,
+      "success": true,
+      "l0": 4,
+      "l2": 0.5469455122947693,
+      "ssim": 0.992448091506958,
+      "time": 0.05988645553588867,
+      "modified_pixels": 4
+    },
+    {
+      "idx": 77,
+      "success": false,
+      "time": 0.14157462120056152
+    },
+    {
+      "idx": 211,
+      "success": false,
+      "time": 0.14178943634033203
+    },
+    {
+      "idx": 193,
+      "success": false,
+      "time": 0.14013934135437012
+    },
+    {
+      "idx": 90,
+      "success": false,
+      "time": 0.1443805694580078
+    },
+    {
+      "idx": 216,
+      "success": false,
+      "time": 0.14883017539978027
+    },
+    {
+      "idx": 205,
+      "success": false,
+      "time": 0.15097379684448242
+    },
+    {
+      "idx": 67,
+      "success": false,
+      "time": 0.1563568115234375
+    },
+    {
+      "idx": 178,
+      "success": true,
+      "l0": 9,
+      "l2": 0.7579913139343262,
+      "ssim": 0.9927533268928528,
+      "time": 0.1290733814239502,
+      "modified_pixels": 9
+    },
+    {
+      "idx": 95,
+      "success": false,
+      "time": 0.134232759475708
+    },
+    {
+      "idx": 79,
+      "success": false,
+      "time": 0.1460888385772705
+    },
+    {
+      "idx": 146,
+      "success": false,
+      "time": 0.14002585411071777
+    },
+    {
+      "idx": 16,
+      "success": false,
+      "time": 0.13604378700256348
+    },
+    {
+      "idx": 174,
+      "success": false,
+      "time": 0.1407613754272461
+    },
+    {
+      "idx": 106,
+      "success": false,
+      "time": 0.13435792922973633
+    },
+    {
+      "idx": 76,
+      "success": false,
+      "time": 0.1394507884979248
+    },
+    {
+      "idx": 71,
+      "success": false,
+      "time": 0.1384425163269043
+    },
+    {
+      "idx": 97,
+      "success": false,
+      "time": 0.1464543342590332
+    },
+    {
+      "idx": 78,
+      "success": false,
+      "time": 0.13883757591247559
+    },
+    {
+      "idx": 148,
+      "success": false,
+      "time": 0.13392400741577148
+    },
+    {
+      "idx": 155,
+      "success": false,
+      "time": 0.1388416290283203
+    },
+    {
+      "idx": 9,
+      "success": false,
+      "time": 0.14340996742248535
+    },
+    {
+      "idx": 18,
+      "success": false,
+      "time": 0.1376798152923584
+    },
+    {
+      "idx": 66,
+      "success": false,
+      "time": 0.1403028964996338
+    },
+    {
+      "idx": 87,
+      "success": true,
+      "l0": 9,
+      "l2": 0.7759818434715271,
+      "ssim": 0.9908177256584167,
+      "time": 0.12993884086608887,
+      "modified_pixels": 9
+    },
+    {
+      "idx": 176,
+      "success": false,
+      "time": 0.14931774139404297
+    },
+    {
+      "idx": 120,
+      "success": false,
+      "time": 0.1335909366607666
+    },
+    {
+      "idx": 159,
+      "success": false,
+      "time": 0.14464306831359863
+    },
+    {
+      "idx": 161,
+      "success": false,
+      "time": 0.1414623260498047
+    },
+    {
+      "idx": 192,
+      "success": false,
+      "time": 0.13315558433532715
+    },
+    {
+      "idx": 88,
+      "success": false,
+      "time": 0.13171911239624023
+    },
+    {
+      "idx": 92,
+      "success": false,
+      "time": 0.13705015182495117
+    },
+    {
+      "idx": 229,
+      "success": false,
+      "time": 0.14960885047912598
+    },
+    {
+      "idx": 42,
+      "success": false,
+      "time": 0.13800978660583496
+    },
+    {
+      "idx": 26,
+      "success": false,
+      "time": 0.14606952667236328
+    },
+    {
+      "idx": 144,
+      "success": false,
+      "time": 0.1327502727508545
+    },
+    {
+      "idx": 227,
+      "success": false,
+      "time": 0.1458137035369873
+    },
+    {
+      "idx": 31,
+      "success": false,
+      "time": 0.13635015487670898
+    },
+    {
+      "idx": 19,
+      "success": false,
+      "time": 0.1351020336151123
+    },
+    {
+      "idx": 169,
+      "success": false,
+      "time": 0.13809895515441895
+    },
+    {
+      "idx": 99,
+      "success": false,
+      "time": 0.15076684951782227
+    },
+    {
+      "idx": 134,
+      "success": false,
+      "time": 0.1443953514099121
+    },
+    {
+      "idx": 201,
+      "success": false,
+      "time": 0.1516892910003662
+    },
+    {
+      "idx": 5,
+      "success": false,
+      "time": 0.1380913257598877
+    },
+    {
+      "idx": 149,
+      "success": false,
+      "time": 0.1400890350341797
+    },
+    {
+      "idx": 137,
+      "success": false,
+      "time": 0.14960265159606934
+    },
+    {
+      "idx": 84,
+      "success": false,
+      "time": 0.15493273735046387
+    },
+    {
+      "idx": 166,
+      "success": false,
+      "time": 0.1493072509765625
+    },
+    {
+      "idx": 111,
+      "success": false,
+      "time": 0.14696478843688965
+    },
+    {
+      "idx": 200,
+      "success": false,
+      "time": 0.1446399688720703
+    },
+    {
+      "idx": 109,
+      "success": false,
+      "time": 0.14194941520690918
+    },
+    {
+      "idx": 197,
+      "success": false,
+      "time": 0.13996028900146484
+    },
+    {
+      "idx": 110,
+      "success": false,
+      "time": 0.14576506614685059
+    },
+    {
+      "idx": 33,
+      "success": false,
+      "time": 0.14267468452453613
+    },
+    {
+      "idx": 12,
+      "success": false,
+      "time": 0.14594626426696777
+    },
+    {
+      "idx": 39,
+      "success": false,
+      "time": 0.14787507057189941
+    },
+    {
+      "idx": 140,
+      "success": false,
+      "time": 0.14381766319274902
+    },
+    {
+      "idx": 46,
+      "success": false,
+      "time": 0.15607666969299316
+    },
+    {
+      "idx": 220,
+      "success": false,
+      "time": 0.14664363861083984
+    },
+    {
+      "idx": 103,
+      "success": false,
+      "time": 0.14374661445617676
+    },
+    {
+      "idx": 160,
+      "success": false,
+      "time": 0.15013813972473145
+    },
+    {
+      "idx": 60,
+      "success": false,
+      "time": 0.1406395435333252
+    },
+    {
+      "idx": 150,
+      "success": false,
+      "time": 0.14879989624023438
+    },
+    {
+      "idx": 190,
+      "success": false,
+      "time": 0.1348133087158203
+    },
+    {
+      "idx": 45,
+      "success": false,
+      "time": 0.13963007926940918
+    },
+    {
+      "idx": 138,
+      "success": false,
+      "time": 0.14276957511901855
+    },
+    {
+      "idx": 133,
+      "success": false,
+      "time": 0.1352400779724121
+    },
+    {
+      "idx": 28,
+      "success": false,
+      "time": 0.15374088287353516
+    },
+    {
+      "idx": 163,
+      "success": false,
+      "time": 0.14296317100524902
+    },
+    {
+      "idx": 114,
+      "success": false,
+      "time": 0.1505744457244873
+    },
+    {
+      "idx": 131,
+      "success": false,
+      "time": 0.14247918128967285
+    },
+    {
+      "idx": 2,
+      "success": false,
+      "time": 0.13546442985534668
+    },
+    {
+      "idx": 89,
+      "success": false,
+      "time": 0.14169931411743164
+    },
+    {
+      "idx": 50,
+      "success": false,
+      "time": 0.1419835090637207
+    },
+    {
+      "idx": 217,
+      "success": false,
+      "time": 0.14009690284729004
+    },
+    {
+      "idx": 222,
+      "success": false,
+      "time": 0.14622068405151367
+    },
+    {
+      "idx": 98,
+      "success": false,
+      "time": 0.14288616180419922
+    },
+    {
+      "idx": 187,
+      "success": false,
+      "time": 0.13446736335754395
+    },
+    {
+      "idx": 40,
+      "success": false,
+      "time": 0.1404423713684082
+    },
+    {
+      "idx": 221,
+      "success": true,
+      "l0": 8,
+      "l2": 0.7521253824234009,
+      "ssim": 0.992083728313446,
+      "time": 0.11173391342163086,
+      "modified_pixels": 8
+    },
+    {
+      "idx": 72,
+      "success": false,
+      "time": 0.14305377006530762
+    },
+    {
+      "idx": 23,
+      "success": false,
+      "time": 0.14247441291809082
+    },
+    {
+      "idx": 167,
+      "success": false,
+      "time": 0.13744235038757324
+    },
+    {
+      "idx": 115,
+      "success": false,
+      "time": 0.1371750831604004
+    },
+    {
+      "idx": 37,
+      "success": true,
+      "l0": 2,
+      "l2": 0.4151958227157593,
+      "ssim": 0.999199390411377,
+      "time": 0.03366804122924805,
+      "modified_pixels": 2
+    },
+    {
+      "idx": 11,
+      "success": false,
+      "time": 0.14114093780517578
+    },
+    {
+      "idx": 225,
+      "success": false,
+      "time": 0.1541581153869629
+    },
+    {
+      "idx": 185,
+      "success": false,
+      "time": 0.14245223999023438
+    },
+    {
+      "idx": 6,
+      "success": false,
+      "time": 0.14479684829711914
+    },
+    {
+      "idx": 29,
+      "success": false,
+      "time": 0.15137553215026855
+    },
+    {
+      "idx": 141,
+      "success": false,
+      "time": 0.15584588050842285
+    }
+  ],
+  "summary": {
+    "asr": 7.000000000000001,
+    "avg_l0": 5.0,
+    "avg_l2": 0.5538835440363202,
+    "avg_ssim": 0.9949512907436916,
+    "avg_time": 0.1381024146080017,
+    "total_samples": 100
+  }
+}

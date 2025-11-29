@@ -1,0 +1,21 @@
+data:
+  dataset: "CIFAR10"
+  data_path: "./data"
+  batch_size: 1
+
+model:
+  name: "resnet18"
+  pretrained: true
+  num_classes: 10
+
+attack:
+  max_steps: 5
+  epsilon: 16
+
+rl:
+  total_timesteps: 5000
+  lr: 0.0003
+  gamma: 0.99
+
+use_gpu: true  
+seed: 42

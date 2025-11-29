@@ -1,0 +1,7 @@
+/models
+.idea
+*.pth
+/data
+/latex_paper
+/paper_data_summary
+/paper_materials

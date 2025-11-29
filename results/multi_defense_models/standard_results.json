@@ -1,0 +1,3061 @@
+{
+  "defense_model": "Standard",
+  "model_name": "Standard",
+  "description": "\u6807\u51c6\u8bad\u7ec3\u6a21\u578b\uff08\u65e0\u5bf9\u6297\u9632\u5fa1\uff09- Baseline",
+  "test_samples": 100,
+  "timestamp": "2025-11-06 15:29:13",
+  "summaries": {
+    "jsma": {
+      "method": "jsma",
+      "asr": 37.0,
+      "success_count": 37,
+      "total_samples": 100,
+      "avg_l0": 0.0,
+      "avg_l2": 0.0,
+      "avg_ssim": 0.0,
+      "avg_time": 0.5197576252189843,
+      "std_l0": 0.0,
+      "std_l2": 0.0
+    },
+    "sparsefool": {
+      "method": "sparsefool",
+      "asr": 41.0,
+      "success_count": 41,
+      "total_samples": 100,
+      "avg_l0": 0.0,
+      "avg_l2": 0.0,
+      "avg_ssim": 0.0,
+      "avg_time": 0.17544160819635157,
+      "std_l0": 0.0,
+      "std_l2": 0.0
+    },
+    "greedy": {
+      "method": "greedy",
+      "asr": 28.000000000000004,
+      "success_count": 28,
+      "total_samples": 100,
+      "avg_l0": 0.0,
+      "avg_l2": 0.0,
+      "avg_ssim": 0.0,
+      "avg_time": 0.14472358567374094,
+      "std_l0": 0.0,
+      "std_l2": 0.0
+    },
+    "pixelgrad": {
+      "method": "pixelgrad",
+      "asr": 24.0,
+      "success_count": 24,
+      "total_samples": 100,
+      "avg_l0": 0.0,
+      "avg_l2": 0.0,
+      "avg_ssim": 0.0,
+      "avg_time": 0.1575633684794108,
+      "std_l0": 0.0,
+      "std_l2": 0.0
+    },
+    "randomsparse": {
+      "method": "randomsparse",
+      "asr": 30.0,
+      "success_count": 30,
+      "total_samples": 100,
+      "avg_l0": 0.0,
+      "avg_l2": 0.0,
+      "avg_ssim": 0.0,
+      "avg_time": 0.10998695691426595,
+      "std_l0": 0.0,
+      "std_l2": 0.0
+    }
+  },
+  "detailed_results": {
+    "jsma": [
+      {
+        "sample_id": 0,
+        "success": true,
+        "time": 1.034919261932373,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 1,
+        "success": true,
+        "time": 0.11873698234558105,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 2,
+        "success": false,
+        "time": 1.0257582664489746
+      },
+      {
+        "sample_id": 3,
+        "success": false,
+        "time": 1.0622851848602295
+      },
+      {
+        "sample_id": 4,
+        "success": false,
+        "time": 1.0634868144989014
+      },
+      {
+        "sample_id": 5,
+        "success": true,
+        "time": 0.8519394397735596,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 6,
+        "success": false,
+        "time": 1.0664923191070557
+      },
+      {
+        "sample_id": 7,
+        "success": false,
+        "time": 1.0856804847717285
+      },
+      {
+        "sample_id": 8,
+        "success": true,
+        "time": 1.1758637428283691,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 9,
+        "success": true,
+        "time": 0.2658665180206299,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 10,
+        "success": false,
+        "time": 1.2146844863891602
+      },
+      {
+        "sample_id": 11,
+        "success": false,
+        "time": 1.1417121887207031
+      },
+      {
+        "sample_id": 12,
+        "success": false,
+        "time": 1.0618641376495361
+      },
+      {
+        "sample_id": 13,
+        "success": false,
+        "time": 1.0584237575531006
+      },
+      {
+        "sample_id": 14,
+        "success": false,
+        "time": 1.0837883949279785
+      },
+      {
+        "sample_id": 15,
+        "success": false,
+        "time": 1.0794861316680908
+      },
+      {
+        "sample_id": 16,
+        "success": false,
+        "time": 1.1232023239135742
+      },
+      {
+        "sample_id": 17,
+        "success": false,
+        "time": 1.186330795288086
+      },
+      {
+        "sample_id": 18,
+        "success": true,
+        "time": 0.4467294216156006,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 19,
+        "success": false,
+        "time": 1.1572239398956299
+      },
+      {
+        "sample_id": 20,
+        "success": false,
+        "time": 1.2020494937896729
+      },
+      {
+        "sample_id": 21,
+        "success": false,
+        "time": 1.163550853729248
+      },
+      {
+        "sample_id": 22,
+        "success": false,
+        "time": 1.1045334339141846
+      },
+      {
+        "sample_id": 23,
+        "success": true,
+        "time": 0.453125,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 24,
+        "success": false,
+        "time": 1.0983178615570068
+      },
+      {
+        "sample_id": 25,
+        "success": false,
+        "time": 1.092127799987793
+      },
+      {
+        "sample_id": 26,
+        "success": false,
+        "time": 1.1018142700195312
+      },
+      {
+        "sample_id": 27,
+        "success": false,
+        "time": 1.094738483428955
+      },
+      {
+        "sample_id": 28,
+        "success": true,
+        "time": 0.12207269668579102,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 29,
+        "success": false,
+        "time": 1.145728349685669
+      },
+      {
+        "sample_id": 30,
+        "success": true,
+        "time": 0.582099437713623,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 31,
+        "success": false,
+        "time": 1.0931928157806396
+      },
+      {
+        "sample_id": 32,
+        "success": true,
+        "time": 0.5926718711853027,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 33,
+        "success": false,
+        "time": 1.1364574432373047
+      },
+      {
+        "sample_id": 34,
+        "success": false,
+        "time": 1.1373789310455322
+      },
+      {
+        "sample_id": 35,
+        "success": false,
+        "time": 1.0983052253723145
+      },
+      {
+        "sample_id": 36,
+        "success": false,
+        "time": 1.0804646015167236
+      },
+      {
+        "sample_id": 37,
+        "success": false,
+        "time": 1.0905542373657227
+      },
+      {
+        "sample_id": 38,
+        "success": false,
+        "time": 1.1162419319152832
+      },
+      {
+        "sample_id": 39,
+        "success": true,
+        "time": 1.085993766784668,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 40,
+        "success": false,
+        "time": 1.076995849609375
+      },
+      {
+        "sample_id": 41,
+        "success": false,
+        "time": 1.1196026802062988
+      },
+      {
+        "sample_id": 42,
+        "success": false,
+        "time": 1.1448860168457031
+      },
+      {
+        "sample_id": 43,
+        "success": true,
+        "time": 0.5751991271972656,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 44,
+        "success": false,
+        "time": 1.1595208644866943
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "time": 0.22796106338500977,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 46,
+        "success": false,
+        "time": 1.0729517936706543
+      },
+      {
+        "sample_id": 47,
+        "success": false,
+        "time": 1.046628713607788
+      },
+      {
+        "sample_id": 48,
+        "success": false,
+        "time": 1.0476453304290771
+      },
+      {
+        "sample_id": 49,
+        "success": false,
+        "time": 1.1980431079864502
+      },
+      {
+        "sample_id": 50,
+        "success": false,
+        "time": 1.07655930519104
+      },
+      {
+        "sample_id": 51,
+        "success": true,
+        "time": 0.7080695629119873,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 52,
+        "success": true,
+        "time": 0.5362260341644287,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 53,
+        "success": false,
+        "time": 1.040527105331421
+      },
+      {
+        "sample_id": 54,
+        "success": false,
+        "time": 1.0743992328643799
+      },
+      {
+        "sample_id": 55,
+        "success": false,
+        "time": 1.0767240524291992
+      },
+      {
+        "sample_id": 56,
+        "success": true,
+        "time": 0.8723897933959961,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 57,
+        "success": false,
+        "time": 0.8286776542663574
+      },
+      {
+        "sample_id": 58,
+        "success": false,
+        "time": 0.8518924713134766
+      },
+      {
+        "sample_id": 59,
+        "success": true,
+        "time": 0.34270787239074707,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 60,
+        "success": false,
+        "time": 0.8385963439941406
+      },
+      {
+        "sample_id": 61,
+        "success": true,
+        "time": 0.1804826259613037,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 62,
+        "success": false,
+        "time": 0.8146018981933594
+      },
+      {
+        "sample_id": 63,
+        "success": false,
+        "time": 0.7691066265106201
+      },
+      {
+        "sample_id": 64,
+        "success": false,
+        "time": 0.7806260585784912
+      },
+      {
+        "sample_id": 65,
+        "success": false,
+        "time": 1.1927690505981445
+      },
+      {
+        "sample_id": 66,
+        "success": false,
+        "time": 1.0890648365020752
+      },
+      {
+        "sample_id": 67,
+        "success": true,
+        "time": 0.33562612533569336,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 68,
+        "success": false,
+        "time": 1.0164496898651123
+      },
+      {
+        "sample_id": 69,
+        "success": false,
+        "time": 0.9829933643341064
+      },
+      {
+        "sample_id": 70,
+        "success": true,
+        "time": 0.21617698669433594,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 71,
+        "success": true,
+        "time": 0.42133069038391113,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 72,
+        "success": true,
+        "time": 0.9864294528961182,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 73,
+        "success": true,
+        "time": 0.3144221305847168,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 74,
+        "success": true,
+        "time": 0.5339140892028809,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 75,
+        "success": false,
+        "time": 1.1268997192382812
+      },
+      {
+        "sample_id": 76,
+        "success": true,
+        "time": 0.6524257659912109,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 77,
+        "success": true,
+        "time": 0.3215053081512451,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 78,
+        "success": false,
+        "time": 1.1241779327392578
+      },
+      {
+        "sample_id": 79,
+        "success": true,
+        "time": 0.8075211048126221,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 80,
+        "success": true,
+        "time": 0.11930203437805176,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 81,
+        "success": true,
+        "time": 0.12221670150756836,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 82,
+        "success": true,
+        "time": 0.11989903450012207,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 83,
+        "success": true,
+        "time": 0.4203193187713623,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 84,
+        "success": true,
+        "time": 0.35455846786499023,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 85,
+        "success": false,
+        "time": 1.1045012474060059
+      },
+      {
+        "sample_id": 86,
+        "success": false,
+        "time": 1.0734977722167969
+      },
+      {
+        "sample_id": 87,
+        "success": false,
+        "time": 1.0611083507537842
+      },
+      {
+        "sample_id": 88,
+        "success": false,
+        "time": 1.0596647262573242
+      },
+      {
+        "sample_id": 89,
+        "success": false,
+        "time": 1.012988805770874
+      },
+      {
+        "sample_id": 90,
+        "success": false,
+        "time": 1.0994925498962402
+      },
+      {
+        "sample_id": 91,
+        "success": true,
+        "time": 0.3195202350616455,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 92,
+        "success": true,
+        "time": 0.8948218822479248,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 93,
+        "success": false,
+        "time": 1.0508754253387451
+      },
+      {
+        "sample_id": 94,
+        "success": false,
+        "time": 1.0663471221923828
+      },
+      {
+        "sample_id": 95,
+        "success": false,
+        "time": 1.0971548557281494
+      },
+      {
+        "sample_id": 96,
+        "success": false,
+        "time": 1.1018457412719727
+      },
+      {
+        "sample_id": 97,
+        "success": true,
+        "time": 0.7681863307952881,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 98,
+        "success": true,
+        "time": 1.000584602355957,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 99,
+        "success": true,
+        "time": 0.34921765327453613,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      }
+    ],
+    "sparsefool": [
+      {
+        "sample_id": 0,
+        "success": true,
+        "time": 0.14193058013916016,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 1,
+        "success": true,
+        "time": 0.03463602066040039,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 2,
+        "success": false,
+        "time": 0.41698265075683594
+      },
+      {
+        "sample_id": 3,
+        "success": false,
+        "time": 0.3946957588195801
+      },
+      {
+        "sample_id": 4,
+        "success": false,
+        "time": 0.4012725353240967
+      },
+      {
+        "sample_id": 5,
+        "success": true,
+        "time": 0.27008700370788574,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 6,
+        "success": false,
+        "time": 0.4090087413787842
+      },
+      {
+        "sample_id": 7,
+        "success": false,
+        "time": 0.37963128089904785
+      },
+      {
+        "sample_id": 8,
+        "success": true,
+        "time": 0.30942273139953613,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 9,
+        "success": true,
+        "time": 0.10001921653747559,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 10,
+        "success": false,
+        "time": 0.3739628791809082
+      },
+      {
+        "sample_id": 11,
+        "success": false,
+        "time": 0.40703606605529785
+      },
+      {
+        "sample_id": 12,
+        "success": false,
+        "time": 0.4101228713989258
+      },
+      {
+        "sample_id": 13,
+        "success": false,
+        "time": 0.39061665534973145
+      },
+      {
+        "sample_id": 14,
+        "success": false,
+        "time": 0.38581061363220215
+      },
+      {
+        "sample_id": 15,
+        "success": false,
+        "time": 0.38979482650756836
+      },
+      {
+        "sample_id": 16,
+        "success": false,
+        "time": 0.3927898406982422
+      },
+      {
+        "sample_id": 17,
+        "success": true,
+        "time": 0.3114767074584961,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 18,
+        "success": true,
+        "time": 0.18581438064575195,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 19,
+        "success": false,
+        "time": 0.39401841163635254
+      },
+      {
+        "sample_id": 20,
+        "success": false,
+        "time": 0.3769395351409912
+      },
+      {
+        "sample_id": 21,
+        "success": false,
+        "time": 0.3729832172393799
+      },
+      {
+        "sample_id": 22,
+        "success": false,
+        "time": 0.4030451774597168
+      },
+      {
+        "sample_id": 23,
+        "success": true,
+        "time": 0.07277083396911621,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 24,
+        "success": false,
+        "time": 0.4357752799987793
+      },
+      {
+        "sample_id": 25,
+        "success": false,
+        "time": 0.4377400875091553
+      },
+      {
+        "sample_id": 26,
+        "success": false,
+        "time": 0.424851655960083
+      },
+      {
+        "sample_id": 27,
+        "success": false,
+        "time": 0.4338860511779785
+      },
+      {
+        "sample_id": 28,
+        "success": true,
+        "time": 0.04260516166687012,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 29,
+        "success": false,
+        "time": 0.32711005210876465
+      },
+      {
+        "sample_id": 30,
+        "success": true,
+        "time": 0.1731874942779541,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 31,
+        "success": false,
+        "time": 0.3239624500274658
+      },
+      {
+        "sample_id": 32,
+        "success": true,
+        "time": 0.06967663764953613,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 33,
+        "success": false,
+        "time": 0.2912566661834717
+      },
+      {
+        "sample_id": 34,
+        "success": false,
+        "time": 0.2906632423400879
+      },
+      {
+        "sample_id": 35,
+        "success": false,
+        "time": 0.2922630310058594
+      },
+      {
+        "sample_id": 36,
+        "success": false,
+        "time": 0.2998065948486328
+      },
+      {
+        "sample_id": 37,
+        "success": false,
+        "time": 0.2996640205383301
+      },
+      {
+        "sample_id": 38,
+        "success": true,
+        "time": 0.2882082462310791,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 39,
+        "success": false,
+        "time": 0.3097565174102783
+      },
+      {
+        "sample_id": 40,
+        "success": true,
+        "time": 0.21683049201965332,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 41,
+        "success": true,
+        "time": 0.25061678886413574,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 42,
+        "success": true,
+        "time": 0.2554619312286377,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 43,
+        "success": true,
+        "time": 0.10702753067016602,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 44,
+        "success": false,
+        "time": 0.3548276424407959
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "time": 0.10704994201660156,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 46,
+        "success": false,
+        "time": 0.39685678482055664
+      },
+      {
+        "sample_id": 47,
+        "success": false,
+        "time": 0.4342060089111328
+      },
+      {
+        "sample_id": 48,
+        "success": false,
+        "time": 0.4059000015258789
+      },
+      {
+        "sample_id": 49,
+        "success": false,
+        "time": 0.418778657913208
+      },
+      {
+        "sample_id": 50,
+        "success": false,
+        "time": 0.4181246757507324
+      },
+      {
+        "sample_id": 51,
+        "success": true,
+        "time": 0.3050210475921631,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 52,
+        "success": true,
+        "time": 0.12137579917907715,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 53,
+        "success": false,
+        "time": 0.3890533447265625
+      },
+      {
+        "sample_id": 54,
+        "success": false,
+        "time": 0.4109952449798584
+      },
+      {
+        "sample_id": 55,
+        "success": false,
+        "time": 0.3949413299560547
+      },
+      {
+        "sample_id": 56,
+        "success": true,
+        "time": 0.3666841983795166,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 57,
+        "success": false,
+        "time": 0.44011735916137695
+      },
+      {
+        "sample_id": 58,
+        "success": false,
+        "time": 0.4010477066040039
+      },
+      {
+        "sample_id": 59,
+        "success": true,
+        "time": 0.09236311912536621,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 60,
+        "success": false,
+        "time": 0.38758182525634766
+      },
+      {
+        "sample_id": 61,
+        "success": true,
+        "time": 0.05896162986755371,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 62,
+        "success": false,
+        "time": 0.40474367141723633
+      },
+      {
+        "sample_id": 63,
+        "success": true,
+        "time": 0.3384416103363037,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 64,
+        "success": true,
+        "time": 0.4173445701599121,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 65,
+        "success": false,
+        "time": 0.4213545322418213
+      },
+      {
+        "sample_id": 66,
+        "success": false,
+        "time": 0.3994300365447998
+      },
+      {
+        "sample_id": 67,
+        "success": true,
+        "time": 0.0571596622467041,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 68,
+        "success": false,
+        "time": 0.4342038631439209
+      },
+      {
+        "sample_id": 69,
+        "success": true,
+        "time": 0.41068434715270996,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 70,
+        "success": true,
+        "time": 0.09187984466552734,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 71,
+        "success": true,
+        "time": 0.11313557624816895,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 72,
+        "success": true,
+        "time": 0.2975461483001709,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 73,
+        "success": false,
+        "time": 0.408083438873291
+      },
+      {
+        "sample_id": 74,
+        "success": false,
+        "time": 0.4171133041381836
+      },
+      {
+        "sample_id": 75,
+        "success": false,
+        "time": 0.39077305793762207
+      },
+      {
+        "sample_id": 76,
+        "success": true,
+        "time": 0.1833510398864746,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 77,
+        "success": true,
+        "time": 0.09754800796508789,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 78,
+        "success": false,
+        "time": 0.3820042610168457
+      },
+      {
+        "sample_id": 79,
+        "success": true,
+        "time": 0.1238412857055664,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 80,
+        "success": true,
+        "time": 0.050194501876831055,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 81,
+        "success": true,
+        "time": 0.04060864448547363,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 82,
+        "success": true,
+        "time": 0.0570673942565918,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 83,
+        "success": true,
+        "time": 0.10717439651489258,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 84,
+        "success": true,
+        "time": 0.10638618469238281,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 85,
+        "success": false,
+        "time": 0.3809230327606201
+      },
+      {
+        "sample_id": 86,
+        "success": false,
+        "time": 0.4083380699157715
+      },
+      {
+        "sample_id": 87,
+        "success": true,
+        "time": 0.3224303722381592,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 88,
+        "success": false,
+        "time": 0.40126585960388184
+      },
+      {
+        "sample_id": 89,
+        "success": false,
+        "time": 0.404433012008667
+      },
+      {
+        "sample_id": 90,
+        "success": false,
+        "time": 0.3846111297607422
+      },
+      {
+        "sample_id": 91,
+        "success": true,
+        "time": 0.12219357490539551,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 92,
+        "success": true,
+        "time": 0.23586750030517578,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 93,
+        "success": false,
+        "time": 0.44009947776794434
+      },
+      {
+        "sample_id": 94,
+        "success": false,
+        "time": 0.4330923557281494
+      },
+      {
+        "sample_id": 95,
+        "success": false,
+        "time": 0.4076509475708008
+      },
+      {
+        "sample_id": 96,
+        "success": false,
+        "time": 0.3929176330566406
+      },
+      {
+        "sample_id": 97,
+        "success": true,
+        "time": 0.1390237808227539,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 98,
+        "success": false,
+        "time": 0.3789942264556885
+      },
+      {
+        "sample_id": 99,
+        "success": false,
+        "time": 0.42114877700805664
+      }
+    ],
+    "greedy": [
+      {
+        "sample_id": 0,
+        "success": true,
+        "time": 0.2529442310333252,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 1,
+        "success": true,
+        "time": 0.04252958297729492,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 2,
+        "success": false,
+        "time": 0.2704286575317383
+      },
+      {
+        "sample_id": 3,
+        "success": false,
+        "time": 0.2695753574371338
+      },
+      {
+        "sample_id": 4,
+        "success": false,
+        "time": 0.27559876441955566
+      },
+      {
+        "sample_id": 5,
+        "success": false,
+        "time": 0.27149367332458496
+      },
+      {
+        "sample_id": 6,
+        "success": false,
+        "time": 0.2710139751434326
+      },
+      {
+        "sample_id": 7,
+        "success": false,
+        "time": 0.2632579803466797
+      },
+      {
+        "sample_id": 8,
+        "success": false,
+        "time": 0.2687199115753174
+      },
+      {
+        "sample_id": 9,
+        "success": true,
+        "time": 0.13967156410217285,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 10,
+        "success": false,
+        "time": 0.27233266830444336
+      },
+      {
+        "sample_id": 11,
+        "success": false,
+        "time": 0.2559783458709717
+      },
+      {
+        "sample_id": 12,
+        "success": false,
+        "time": 0.26372694969177246
+      },
+      {
+        "sample_id": 13,
+        "success": false,
+        "time": 0.26371049880981445
+      },
+      {
+        "sample_id": 14,
+        "success": false,
+        "time": 0.2738211154937744
+      },
+      {
+        "sample_id": 15,
+        "success": false,
+        "time": 0.28377389907836914
+      },
+      {
+        "sample_id": 16,
+        "success": false,
+        "time": 0.26804471015930176
+      },
+      {
+        "sample_id": 17,
+        "success": false,
+        "time": 0.27558064460754395
+      },
+      {
+        "sample_id": 18,
+        "success": true,
+        "time": 0.2501990795135498,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 19,
+        "success": false,
+        "time": 0.2722747325897217
+      },
+      {
+        "sample_id": 20,
+        "success": false,
+        "time": 0.27336573600769043
+      },
+      {
+        "sample_id": 21,
+        "success": false,
+        "time": 0.28841066360473633
+      },
+      {
+        "sample_id": 22,
+        "success": false,
+        "time": 0.2852613925933838
+      },
+      {
+        "sample_id": 23,
+        "success": true,
+        "time": 0.11496853828430176,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 24,
+        "success": false,
+        "time": 0.28069448471069336
+      },
+      {
+        "sample_id": 25,
+        "success": false,
+        "time": 0.2671685218811035
+      },
+      {
+        "sample_id": 26,
+        "success": false,
+        "time": 0.26892638206481934
+      },
+      {
+        "sample_id": 27,
+        "success": false,
+        "time": 0.26489949226379395
+      },
+      {
+        "sample_id": 28,
+        "success": true,
+        "time": 0.06435346603393555,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 29,
+        "success": false,
+        "time": 0.2744898796081543
+      },
+      {
+        "sample_id": 30,
+        "success": true,
+        "time": 0.24287772178649902,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 31,
+        "success": false,
+        "time": 0.28152918815612793
+      },
+      {
+        "sample_id": 32,
+        "success": true,
+        "time": 0.10816812515258789,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 33,
+        "success": false,
+        "time": 0.27250146865844727
+      },
+      {
+        "sample_id": 34,
+        "success": false,
+        "time": 0.25873613357543945
+      },
+      {
+        "sample_id": 35,
+        "success": false,
+        "time": 0.268324613571167
+      },
+      {
+        "sample_id": 36,
+        "success": false,
+        "time": 0.27787184715270996
+      },
+      {
+        "sample_id": 37,
+        "success": false,
+        "time": 0.2692093849182129
+      },
+      {
+        "sample_id": 38,
+        "success": false,
+        "time": 0.25928354263305664
+      },
+      {
+        "sample_id": 39,
+        "success": false,
+        "time": 0.23683834075927734
+      },
+      {
+        "sample_id": 40,
+        "success": false,
+        "time": 0.2522437572479248
+      },
+      {
+        "sample_id": 41,
+        "success": false,
+        "time": 0.26411867141723633
+      },
+      {
+        "sample_id": 42,
+        "success": false,
+        "time": 0.26389622688293457
+      },
+      {
+        "sample_id": 43,
+        "success": true,
+        "time": 0.19625115394592285,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 44,
+        "success": false,
+        "time": 0.26682019233703613
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "time": 0.1413271427154541,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 46,
+        "success": false,
+        "time": 0.25989222526550293
+      },
+      {
+        "sample_id": 47,
+        "success": false,
+        "time": 0.2871840000152588
+      },
+      {
+        "sample_id": 48,
+        "success": false,
+        "time": 0.26677703857421875
+      },
+      {
+        "sample_id": 49,
+        "success": false,
+        "time": 0.28340744972229004
+      },
+      {
+        "sample_id": 50,
+        "success": false,
+        "time": 0.2763853073120117
+      },
+      {
+        "sample_id": 51,
+        "success": false,
+        "time": 0.2708590030670166
+      },
+      {
+        "sample_id": 52,
+        "success": true,
+        "time": 0.17226576805114746,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 53,
+        "success": false,
+        "time": 0.27670860290527344
+      },
+      {
+        "sample_id": 54,
+        "success": false,
+        "time": 0.25643372535705566
+      },
+      {
+        "sample_id": 55,
+        "success": false,
+        "time": 0.296250581741333
+      },
+      {
+        "sample_id": 56,
+        "success": false,
+        "time": 0.26918816566467285
+      },
+      {
+        "sample_id": 57,
+        "success": false,
+        "time": 0.2622380256652832
+      },
+      {
+        "sample_id": 58,
+        "success": false,
+        "time": 0.2634613513946533
+      },
+      {
+        "sample_id": 59,
+        "success": true,
+        "time": 0.11513900756835938,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 60,
+        "success": false,
+        "time": 0.26337480545043945
+      },
+      {
+        "sample_id": 61,
+        "success": true,
+        "time": 0.06359696388244629,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 62,
+        "success": false,
+        "time": 0.2497873306274414
+      },
+      {
+        "sample_id": 63,
+        "success": false,
+        "time": 0.26559972763061523
+      },
+      {
+        "sample_id": 64,
+        "success": false,
+        "time": 0.30956482887268066
+      },
+      {
+        "sample_id": 65,
+        "success": false,
+        "time": 0.2798755168914795
+      },
+      {
+        "sample_id": 66,
+        "success": false,
+        "time": 0.26233696937561035
+      },
+      {
+        "sample_id": 67,
+        "success": true,
+        "time": 0.06278419494628906,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 68,
+        "success": false,
+        "time": 0.2640204429626465
+      },
+      {
+        "sample_id": 69,
+        "success": false,
+        "time": 0.2676112651824951
+      },
+      {
+        "sample_id": 70,
+        "success": true,
+        "time": 0.11053848266601562,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 71,
+        "success": true,
+        "time": 0.16179633140563965,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 72,
+        "success": false,
+        "time": 0.2767798900604248
+      },
+      {
+        "sample_id": 73,
+        "success": false,
+        "time": 0.2846958637237549
+      },
+      {
+        "sample_id": 74,
+        "success": true,
+        "time": 0.23706674575805664,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 75,
+        "success": false,
+        "time": 0.325589656829834
+      },
+      {
+        "sample_id": 76,
+        "success": true,
+        "time": 0.2554900646209717,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 77,
+        "success": true,
+        "time": 0.11935615539550781,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 78,
+        "success": false,
+        "time": 0.27838659286499023
+      },
+      {
+        "sample_id": 79,
+        "success": true,
+        "time": 0.1750202178955078,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 80,
+        "success": true,
+        "time": 0.03883695602416992,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 81,
+        "success": true,
+        "time": 0.04262065887451172,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 82,
+        "success": true,
+        "time": 0.0674285888671875,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 83,
+        "success": true,
+        "time": 0.15194988250732422,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 84,
+        "success": true,
+        "time": 0.14954733848571777,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 85,
+        "success": false,
+        "time": 0.283581018447876
+      },
+      {
+        "sample_id": 86,
+        "success": false,
+        "time": 0.27556419372558594
+      },
+      {
+        "sample_id": 87,
+        "success": false,
+        "time": 0.2833108901977539
+      },
+      {
+        "sample_id": 88,
+        "success": false,
+        "time": 0.28370046615600586
+      },
+      {
+        "sample_id": 89,
+        "success": false,
+        "time": 0.31107568740844727
+      },
+      {
+        "sample_id": 90,
+        "success": false,
+        "time": 0.30948972702026367
+      },
+      {
+        "sample_id": 91,
+        "success": true,
+        "time": 0.11640381813049316,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 92,
+        "success": false,
+        "time": 0.3056919574737549
+      },
+      {
+        "sample_id": 93,
+        "success": false,
+        "time": 0.281583309173584
+      },
+      {
+        "sample_id": 94,
+        "success": false,
+        "time": 0.26859045028686523
+      },
+      {
+        "sample_id": 95,
+        "success": false,
+        "time": 0.29079318046569824
+      },
+      {
+        "sample_id": 96,
+        "success": false,
+        "time": 0.256145715713501
+      },
+      {
+        "sample_id": 97,
+        "success": true,
+        "time": 0.23827886581420898,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 98,
+        "success": false,
+        "time": 0.26592350006103516
+      },
+      {
+        "sample_id": 99,
+        "success": true,
+        "time": 0.22084975242614746,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      }
+    ],
+    "pixelgrad": [
+      {
+        "sample_id": 0,
+        "success": false,
+        "time": 0.3145744800567627
+      },
+      {
+        "sample_id": 1,
+        "success": true,
+        "time": 0.041707515716552734,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 2,
+        "success": false,
+        "time": 0.2821180820465088
+      },
+      {
+        "sample_id": 3,
+        "success": false,
+        "time": 0.2634551525115967
+      },
+      {
+        "sample_id": 4,
+        "success": false,
+        "time": 0.2920544147491455
+      },
+      {
+        "sample_id": 5,
+        "success": false,
+        "time": 0.2991981506347656
+      },
+      {
+        "sample_id": 6,
+        "success": false,
+        "time": 0.28479671478271484
+      },
+      {
+        "sample_id": 7,
+        "success": false,
+        "time": 0.29935193061828613
+      },
+      {
+        "sample_id": 8,
+        "success": false,
+        "time": 0.28768324851989746
+      },
+      {
+        "sample_id": 9,
+        "success": true,
+        "time": 0.19809842109680176,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 10,
+        "success": false,
+        "time": 0.2630782127380371
+      },
+      {
+        "sample_id": 11,
+        "success": false,
+        "time": 0.2807445526123047
+      },
+      {
+        "sample_id": 12,
+        "success": false,
+        "time": 0.27998995780944824
+      },
+      {
+        "sample_id": 13,
+        "success": false,
+        "time": 0.2817559242248535
+      },
+      {
+        "sample_id": 14,
+        "success": false,
+        "time": 0.2817521095275879
+      },
+      {
+        "sample_id": 15,
+        "success": false,
+        "time": 0.2904787063598633
+      },
+      {
+        "sample_id": 16,
+        "success": false,
+        "time": 0.2788980007171631
+      },
+      {
+        "sample_id": 17,
+        "success": false,
+        "time": 0.2850348949432373
+      },
+      {
+        "sample_id": 18,
+        "success": true,
+        "time": 0.17116117477416992,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 19,
+        "success": false,
+        "time": 0.2715775966644287
+      },
+      {
+        "sample_id": 20,
+        "success": false,
+        "time": 0.28102755546569824
+      },
+      {
+        "sample_id": 21,
+        "success": false,
+        "time": 0.2761878967285156
+      },
+      {
+        "sample_id": 22,
+        "success": false,
+        "time": 0.2808699607849121
+      },
+      {
+        "sample_id": 23,
+        "success": true,
+        "time": 0.11941409111022949,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 24,
+        "success": false,
+        "time": 0.28026819229125977
+      },
+      {
+        "sample_id": 25,
+        "success": false,
+        "time": 0.267791748046875
+      },
+      {
+        "sample_id": 26,
+        "success": false,
+        "time": 0.27228760719299316
+      },
+      {
+        "sample_id": 27,
+        "success": false,
+        "time": 0.2946333885192871
+      },
+      {
+        "sample_id": 28,
+        "success": true,
+        "time": 0.06735467910766602,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 29,
+        "success": false,
+        "time": 0.28226208686828613
+      },
+      {
+        "sample_id": 30,
+        "success": true,
+        "time": 0.20097088813781738,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 31,
+        "success": false,
+        "time": 0.29409313201904297
+      },
+      {
+        "sample_id": 32,
+        "success": false,
+        "time": 0.27870655059814453
+      },
+      {
+        "sample_id": 33,
+        "success": true,
+        "time": 0.1885673999786377,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 34,
+        "success": false,
+        "time": 0.2855255603790283
+      },
+      {
+        "sample_id": 35,
+        "success": false,
+        "time": 0.28450965881347656
+      },
+      {
+        "sample_id": 36,
+        "success": false,
+        "time": 0.27638983726501465
+      },
+      {
+        "sample_id": 37,
+        "success": false,
+        "time": 0.27288174629211426
+      },
+      {
+        "sample_id": 38,
+        "success": false,
+        "time": 0.27517032623291016
+      },
+      {
+        "sample_id": 39,
+        "success": false,
+        "time": 0.28609800338745117
+      },
+      {
+        "sample_id": 40,
+        "success": false,
+        "time": 0.28008198738098145
+      },
+      {
+        "sample_id": 41,
+        "success": false,
+        "time": 0.2752110958099365
+      },
+      {
+        "sample_id": 42,
+        "success": false,
+        "time": 0.2928793430328369
+      },
+      {
+        "sample_id": 43,
+        "success": true,
+        "time": 0.17124223709106445,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 44,
+        "success": false,
+        "time": 0.272442102432251
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "time": 0.17176198959350586,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 46,
+        "success": false,
+        "time": 0.28215765953063965
+      },
+      {
+        "sample_id": 47,
+        "success": false,
+        "time": 0.29439568519592285
+      },
+      {
+        "sample_id": 48,
+        "success": false,
+        "time": 0.2730977535247803
+      },
+      {
+        "sample_id": 49,
+        "success": false,
+        "time": 0.27681493759155273
+      },
+      {
+        "sample_id": 50,
+        "success": false,
+        "time": 0.27977442741394043
+      },
+      {
+        "sample_id": 51,
+        "success": false,
+        "time": 0.27289557456970215
+      },
+      {
+        "sample_id": 52,
+        "success": false,
+        "time": 0.28589677810668945
+      },
+      {
+        "sample_id": 53,
+        "success": false,
+        "time": 0.2840695381164551
+      },
+      {
+        "sample_id": 54,
+        "success": false,
+        "time": 0.2869539260864258
+      },
+      {
+        "sample_id": 55,
+        "success": false,
+        "time": 0.27658581733703613
+      },
+      {
+        "sample_id": 56,
+        "success": false,
+        "time": 0.2786283493041992
+      },
+      {
+        "sample_id": 57,
+        "success": false,
+        "time": 0.2762584686279297
+      },
+      {
+        "sample_id": 58,
+        "success": false,
+        "time": 0.2890617847442627
+      },
+      {
+        "sample_id": 59,
+        "success": true,
+        "time": 0.09477400779724121,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 60,
+        "success": false,
+        "time": 0.28911495208740234
+      },
+      {
+        "sample_id": 61,
+        "success": false,
+        "time": 0.2975757122039795
+      },
+      {
+        "sample_id": 62,
+        "success": false,
+        "time": 0.30711865425109863
+      },
+      {
+        "sample_id": 63,
+        "success": false,
+        "time": 0.29714536666870117
+      },
+      {
+        "sample_id": 64,
+        "success": false,
+        "time": 0.3013315200805664
+      },
+      {
+        "sample_id": 65,
+        "success": false,
+        "time": 0.2946641445159912
+      },
+      {
+        "sample_id": 66,
+        "success": false,
+        "time": 0.28918910026550293
+      },
+      {
+        "sample_id": 67,
+        "success": true,
+        "time": 0.06776046752929688,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 68,
+        "success": false,
+        "time": 0.29222679138183594
+      },
+      {
+        "sample_id": 69,
+        "success": false,
+        "time": 0.3096921443939209
+      },
+      {
+        "sample_id": 70,
+        "success": true,
+        "time": 0.16707134246826172,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 71,
+        "success": true,
+        "time": 0.20596814155578613,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 72,
+        "success": false,
+        "time": 0.282440185546875
+      },
+      {
+        "sample_id": 73,
+        "success": true,
+        "time": 0.22840070724487305,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 74,
+        "success": false,
+        "time": 0.2824552059173584
+      },
+      {
+        "sample_id": 75,
+        "success": false,
+        "time": 0.2792670726776123
+      },
+      {
+        "sample_id": 76,
+        "success": true,
+        "time": 0.14318013191223145,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 77,
+        "success": true,
+        "time": 0.21689438819885254,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 78,
+        "success": false,
+        "time": 0.2851145267486572
+      },
+      {
+        "sample_id": 79,
+        "success": true,
+        "time": 0.25568580627441406,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 80,
+        "success": true,
+        "time": 0.120086669921875,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 81,
+        "success": true,
+        "time": 0.10126852989196777,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 82,
+        "success": true,
+        "time": 0.04219222068786621,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 83,
+        "success": true,
+        "time": 0.18974709510803223,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 84,
+        "success": true,
+        "time": 0.2356247901916504,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 85,
+        "success": false,
+        "time": 0.2765626907348633
+      },
+      {
+        "sample_id": 86,
+        "success": false,
+        "time": 0.2724318504333496
+      },
+      {
+        "sample_id": 87,
+        "success": false,
+        "time": 0.29132795333862305
+      },
+      {
+        "sample_id": 88,
+        "success": false,
+        "time": 0.3291900157928467
+      },
+      {
+        "sample_id": 89,
+        "success": false,
+        "time": 0.304335355758667
+      },
+      {
+        "sample_id": 90,
+        "success": false,
+        "time": 0.2903306484222412
+      },
+      {
+        "sample_id": 91,
+        "success": true,
+        "time": 0.28029417991638184,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 92,
+        "success": false,
+        "time": 0.2871854305267334
+      },
+      {
+        "sample_id": 93,
+        "success": false,
+        "time": 0.286912202835083
+      },
+      {
+        "sample_id": 94,
+        "success": false,
+        "time": 0.28650879859924316
+      },
+      {
+        "sample_id": 95,
+        "success": false,
+        "time": 0.29117703437805176
+      },
+      {
+        "sample_id": 96,
+        "success": false,
+        "time": 0.2835676670074463
+      },
+      {
+        "sample_id": 97,
+        "success": false,
+        "time": 0.2844357490539551
+      },
+      {
+        "sample_id": 98,
+        "success": false,
+        "time": 0.2533078193664551
+      },
+      {
+        "sample_id": 99,
+        "success": true,
+        "time": 0.1022939682006836,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      }
+    ],
+    "randomsparse": [
+      {
+        "sample_id": 0,
+        "success": true,
+        "time": 0.43007445335388184,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 1,
+        "success": true,
+        "time": 0.03587675094604492,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 2,
+        "success": false,
+        "time": 0.5837395191192627
+      },
+      {
+        "sample_id": 3,
+        "success": false,
+        "time": 0.5513331890106201
+      },
+      {
+        "sample_id": 4,
+        "success": false,
+        "time": 0.5895209312438965
+      },
+      {
+        "sample_id": 5,
+        "success": false,
+        "time": 0.5753731727600098
+      },
+      {
+        "sample_id": 6,
+        "success": false,
+        "time": 0.6000525951385498
+      },
+      {
+        "sample_id": 7,
+        "success": false,
+        "time": 0.5687916278839111
+      },
+      {
+        "sample_id": 8,
+        "success": false,
+        "time": 0.49297070503234863
+      },
+      {
+        "sample_id": 9,
+        "success": true,
+        "time": 0.044609785079956055,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 10,
+        "success": false,
+        "time": 0.4435234069824219
+      },
+      {
+        "sample_id": 11,
+        "success": false,
+        "time": 0.4050877094268799
+      },
+      {
+        "sample_id": 12,
+        "success": false,
+        "time": 0.400341272354126
+      },
+      {
+        "sample_id": 13,
+        "success": true,
+        "time": 0.16990971565246582,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 14,
+        "success": false,
+        "time": 0.3768758773803711
+      },
+      {
+        "sample_id": 15,
+        "success": false,
+        "time": 0.39451074600219727
+      },
+      {
+        "sample_id": 16,
+        "success": true,
+        "time": 0.03691506385803223,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 17,
+        "success": false,
+        "time": 0.3873746395111084
+      },
+      {
+        "sample_id": 18,
+        "success": true,
+        "time": 0.02495265007019043,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 19,
+        "success": false,
+        "time": 0.39045190811157227
+      },
+      {
+        "sample_id": 20,
+        "success": false,
+        "time": 0.3959641456604004
+      },
+      {
+        "sample_id": 21,
+        "success": false,
+        "time": 0.3937373161315918
+      },
+      {
+        "sample_id": 22,
+        "success": false,
+        "time": 0.3897535800933838
+      },
+      {
+        "sample_id": 23,
+        "success": true,
+        "time": 0.027193784713745117,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 24,
+        "success": false,
+        "time": 0.3898897171020508
+      },
+      {
+        "sample_id": 25,
+        "success": false,
+        "time": 0.3929142951965332
+      },
+      {
+        "sample_id": 26,
+        "success": false,
+        "time": 0.3596949577331543
+      },
+      {
+        "sample_id": 27,
+        "success": false,
+        "time": 0.3960440158843994
+      },
+      {
+        "sample_id": 28,
+        "success": true,
+        "time": 0.02753138542175293,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 29,
+        "success": false,
+        "time": 0.4026949405670166
+      },
+      {
+        "sample_id": 30,
+        "success": true,
+        "time": 0.1756422519683838,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 31,
+        "success": false,
+        "time": 0.41536760330200195
+      },
+      {
+        "sample_id": 32,
+        "success": true,
+        "time": 0.026439428329467773,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 33,
+        "success": false,
+        "time": 0.3887510299682617
+      },
+      {
+        "sample_id": 34,
+        "success": false,
+        "time": 0.38294172286987305
+      },
+      {
+        "sample_id": 35,
+        "success": true,
+        "time": 0.15754294395446777,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 36,
+        "success": false,
+        "time": 0.4521365165710449
+      },
+      {
+        "sample_id": 37,
+        "success": false,
+        "time": 0.4184272289276123
+      },
+      {
+        "sample_id": 38,
+        "success": true,
+        "time": 0.2370929718017578,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 39,
+        "success": false,
+        "time": 0.4142634868621826
+      },
+      {
+        "sample_id": 40,
+        "success": false,
+        "time": 0.3845829963684082
+      },
+      {
+        "sample_id": 41,
+        "success": false,
+        "time": 0.38556623458862305
+      },
+      {
+        "sample_id": 42,
+        "success": true,
+        "time": 0.19891762733459473,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 43,
+        "success": true,
+        "time": 0.12015199661254883,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 44,
+        "success": false,
+        "time": 0.3577284812927246
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "time": 0.053497314453125,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 46,
+        "success": false,
+        "time": 0.37009406089782715
+      },
+      {
+        "sample_id": 47,
+        "success": false,
+        "time": 0.3757658004760742
+      },
+      {
+        "sample_id": 48,
+        "success": false,
+        "time": 0.399261474609375
+      },
+      {
+        "sample_id": 49,
+        "success": false,
+        "time": 0.4144868850708008
+      },
+      {
+        "sample_id": 50,
+        "success": false,
+        "time": 0.38002943992614746
+      },
+      {
+        "sample_id": 51,
+        "success": false,
+        "time": 0.3750734329223633
+      },
+      {
+        "sample_id": 52,
+        "success": false,
+        "time": 0.3886091709136963
+      },
+      {
+        "sample_id": 53,
+        "success": false,
+        "time": 0.3754861354827881
+      },
+      {
+        "sample_id": 54,
+        "success": false,
+        "time": 0.40703678131103516
+      },
+      {
+        "sample_id": 55,
+        "success": false,
+        "time": 0.39706945419311523
+      },
+      {
+        "sample_id": 56,
+        "success": false,
+        "time": 0.39434242248535156
+      },
+      {
+        "sample_id": 57,
+        "success": false,
+        "time": 0.3869302272796631
+      },
+      {
+        "sample_id": 58,
+        "success": true,
+        "time": 0.058389902114868164,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 59,
+        "success": true,
+        "time": 0.04131793975830078,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 60,
+        "success": false,
+        "time": 0.3949613571166992
+      },
+      {
+        "sample_id": 61,
+        "success": true,
+        "time": 0.03321385383605957,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 62,
+        "success": false,
+        "time": 0.4212985038757324
+      },
+      {
+        "sample_id": 63,
+        "success": false,
+        "time": 0.43814539909362793
+      },
+      {
+        "sample_id": 64,
+        "success": true,
+        "time": 0.21056699752807617,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 65,
+        "success": false,
+        "time": 0.4092886447906494
+      },
+      {
+        "sample_id": 66,
+        "success": false,
+        "time": 0.4474484920501709
+      },
+      {
+        "sample_id": 67,
+        "success": true,
+        "time": 0.08365392684936523,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 68,
+        "success": false,
+        "time": 0.4923665523529053
+      },
+      {
+        "sample_id": 69,
+        "success": false,
+        "time": 0.4384644031524658
+      },
+      {
+        "sample_id": 70,
+        "success": true,
+        "time": 0.02662801742553711,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 71,
+        "success": true,
+        "time": 0.038617610931396484,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 72,
+        "success": false,
+        "time": 0.43943214416503906
+      },
+      {
+        "sample_id": 73,
+        "success": false,
+        "time": 0.4130420684814453
+      },
+      {
+        "sample_id": 74,
+        "success": false,
+        "time": 0.4078197479248047
+      },
+      {
+        "sample_id": 75,
+        "success": false,
+        "time": 0.4014298915863037
+      },
+      {
+        "sample_id": 76,
+        "success": true,
+        "time": 0.03278303146362305,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 77,
+        "success": false,
+        "time": 0.38811326026916504
+      },
+      {
+        "sample_id": 78,
+        "success": false,
+        "time": 0.3681602478027344
+      },
+      {
+        "sample_id": 79,
+        "success": true,
+        "time": 0.34986448287963867,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 80,
+        "success": true,
+        "time": 0.030709028244018555,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 81,
+        "success": true,
+        "time": 0.06025409698486328,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 82,
+        "success": true,
+        "time": 0.023689746856689453,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 83,
+        "success": false,
+        "time": 0.39065122604370117
+      },
+      {
+        "sample_id": 84,
+        "success": true,
+        "time": 0.05541849136352539,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 85,
+        "success": false,
+        "time": 0.40320420265197754
+      },
+      {
+        "sample_id": 86,
+        "success": false,
+        "time": 0.38595104217529297
+      },
+      {
+        "sample_id": 87,
+        "success": false,
+        "time": 0.4025142192840576
+      },
+      {
+        "sample_id": 88,
+        "success": false,
+        "time": 0.3927130699157715
+      },
+      {
+        "sample_id": 89,
+        "success": false,
+        "time": 0.42352962493896484
+      },
+      {
+        "sample_id": 90,
+        "success": false,
+        "time": 0.3860046863555908
+      },
+      {
+        "sample_id": 91,
+        "success": true,
+        "time": 0.3378274440765381,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 92,
+        "success": false,
+        "time": 0.38457250595092773
+      },
+      {
+        "sample_id": 93,
+        "success": false,
+        "time": 0.3852682113647461
+      },
+      {
+        "sample_id": 94,
+        "success": false,
+        "time": 0.4056251049041748
+      },
+      {
+        "sample_id": 95,
+        "success": false,
+        "time": 0.3836846351623535
+      },
+      {
+        "sample_id": 96,
+        "success": false,
+        "time": 0.4013981819152832
+      },
+      {
+        "sample_id": 97,
+        "success": false,
+        "time": 0.4217264652252197
+      },
+      {
+        "sample_id": 98,
+        "success": false,
+        "time": 0.3959801197052002
+      },
+      {
+        "sample_id": 99,
+        "success": true,
+        "time": 0.15032601356506348,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      }
+    ]
+  }
+}

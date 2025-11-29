@@ -1,0 +1,2779 @@
+{
+  "defense_model": "Rice2020Overfitting",
+  "model_name": "Rice2020Overfitting",
+  "description": "TRADES\u5f3a\u9632\u5fa1\uff08\u5f3aL\u221e\u9c81\u68d2\u6027\uff09",
+  "test_samples": 100,
+  "timestamp": "2025-11-06 16:15:10",
+  "summaries": {
+    "jsma": {
+      "method": "jsma",
+      "asr": 16.0,
+      "success_count": 16,
+      "total_samples": 100,
+      "avg_l0": 0.0,
+      "avg_l2": 0.0,
+      "avg_ssim": 0.0,
+      "avg_time": 1.344866320490837,
+      "std_l0": 0.0,
+      "std_l2": 0.0
+    },
+    "sparsefool": {
+      "method": "sparsefool",
+      "asr": 28.999999999999996,
+      "success_count": 29,
+      "total_samples": 100,
+      "avg_l0": 0.0,
+      "avg_l2": 0.0,
+      "avg_ssim": 0.0,
+      "avg_time": 0.4829757871298954,
+      "std_l0": 0.0,
+      "std_l2": 0.0
+    },
+    "greedy": {
+      "method": "greedy",
+      "asr": 11.0,
+      "success_count": 11,
+      "total_samples": 100,
+      "avg_l0": 0.0,
+      "avg_l2": 0.0,
+      "avg_ssim": 0.0,
+      "avg_time": 0.3114597580649636,
+      "std_l0": 0.0,
+      "std_l2": 0.0
+    },
+    "pixelgrad": {
+      "method": "pixelgrad",
+      "asr": 8.0,
+      "success_count": 8,
+      "total_samples": 100,
+      "avg_l0": 0.0,
+      "avg_l2": 0.0,
+      "avg_ssim": 0.0,
+      "avg_time": 0.3221224546432495,
+      "std_l0": 0.0,
+      "std_l2": 0.0
+    },
+    "randomsparse": {
+      "method": "randomsparse",
+      "asr": 2.0,
+      "success_count": 2,
+      "total_samples": 100,
+      "avg_l0": 0.0,
+      "avg_l2": 0.0,
+      "avg_ssim": 0.0,
+      "avg_time": 0.5188312530517578,
+      "std_l0": 0.0,
+      "std_l2": 0.0
+    }
+  },
+  "detailed_results": {
+    "jsma": [
+      {
+        "sample_id": 0,
+        "success": false,
+        "time": 3.0802249908447266
+      },
+      {
+        "sample_id": 1,
+        "success": false,
+        "time": 2.6453380584716797
+      },
+      {
+        "sample_id": 2,
+        "success": false,
+        "time": 2.5665478706359863
+      },
+      {
+        "sample_id": 3,
+        "success": true,
+        "time": 2.327359914779663,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 4,
+        "success": false,
+        "time": 2.574040412902832
+      },
+      {
+        "sample_id": 5,
+        "success": true,
+        "time": 0.8035922050476074,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 6,
+        "success": true,
+        "time": 0.5475256443023682,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 7,
+        "success": false,
+        "time": 2.622253894805908
+      },
+      {
+        "sample_id": 8,
+        "success": false,
+        "time": 2.660729169845581
+      },
+      {
+        "sample_id": 9,
+        "success": false,
+        "time": 2.642220973968506
+      },
+      {
+        "sample_id": 10,
+        "success": false,
+        "time": 2.5568394660949707
+      },
+      {
+        "sample_id": 11,
+        "success": false,
+        "time": 2.490182638168335
+      },
+      {
+        "sample_id": 12,
+        "success": false,
+        "time": 2.432671070098877
+      },
+      {
+        "sample_id": 13,
+        "success": false,
+        "time": 2.446737766265869
+      },
+      {
+        "sample_id": 14,
+        "success": false,
+        "time": 2.562791585922241
+      },
+      {
+        "sample_id": 15,
+        "success": true,
+        "time": 1.0384674072265625,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 16,
+        "success": false,
+        "time": 2.486995220184326
+      },
+      {
+        "sample_id": 17,
+        "success": false,
+        "time": 2.532531261444092
+      },
+      {
+        "sample_id": 18,
+        "success": false,
+        "time": 2.543553590774536
+      },
+      {
+        "sample_id": 19,
+        "success": false,
+        "time": 2.496692419052124
+      },
+      {
+        "sample_id": 20,
+        "success": false,
+        "time": 2.5124499797821045
+      },
+      {
+        "sample_id": 21,
+        "success": false,
+        "time": 2.4641880989074707
+      },
+      {
+        "sample_id": 22,
+        "success": false,
+        "time": 2.4346933364868164
+      },
+      {
+        "sample_id": 23,
+        "success": false,
+        "time": 2.427495241165161
+      },
+      {
+        "sample_id": 24,
+        "success": false,
+        "time": 2.4462387561798096
+      },
+      {
+        "sample_id": 25,
+        "success": false,
+        "time": 2.4560024738311768
+      },
+      {
+        "sample_id": 26,
+        "success": false,
+        "time": 2.469625234603882
+      },
+      {
+        "sample_id": 27,
+        "success": false,
+        "time": 2.483832836151123
+      },
+      {
+        "sample_id": 28,
+        "success": false,
+        "time": 2.4761576652526855
+      },
+      {
+        "sample_id": 29,
+        "success": false,
+        "time": 2.516258955001831
+      },
+      {
+        "sample_id": 30,
+        "success": true,
+        "time": 0.5257134437561035,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 31,
+        "success": false,
+        "time": 2.6076555252075195
+      },
+      {
+        "sample_id": 32,
+        "success": false,
+        "time": 2.5306456089019775
+      },
+      {
+        "sample_id": 33,
+        "success": false,
+        "time": 2.5582454204559326
+      },
+      {
+        "sample_id": 34,
+        "success": false,
+        "time": 2.5712788105010986
+      },
+      {
+        "sample_id": 35,
+        "success": false,
+        "time": 2.515815019607544
+      },
+      {
+        "sample_id": 36,
+        "success": false,
+        "time": 2.5628535747528076
+      },
+      {
+        "sample_id": 37,
+        "success": false,
+        "time": 2.4948885440826416
+      },
+      {
+        "sample_id": 38,
+        "success": false,
+        "time": 2.593714714050293
+      },
+      {
+        "sample_id": 39,
+        "success": false,
+        "time": 2.5635647773742676
+      },
+      {
+        "sample_id": 40,
+        "success": true,
+        "time": 1.3256433010101318,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 41,
+        "success": true,
+        "time": 1.0321366786956787,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 42,
+        "success": false,
+        "time": 2.5914783477783203
+      },
+      {
+        "sample_id": 43,
+        "success": false,
+        "time": 2.51002836227417
+      },
+      {
+        "sample_id": 44,
+        "success": true,
+        "time": 1.0065505504608154,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "time": 0.5085034370422363,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 46,
+        "success": false,
+        "time": 2.434169292449951
+      },
+      {
+        "sample_id": 47,
+        "success": false,
+        "time": 2.4655203819274902
+      },
+      {
+        "sample_id": 48,
+        "success": false,
+        "time": 2.4731533527374268
+      },
+      {
+        "sample_id": 49,
+        "success": true,
+        "time": 0.2773098945617676,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 50,
+        "success": false,
+        "time": 2.482609510421753
+      },
+      {
+        "sample_id": 51,
+        "success": false,
+        "time": 2.4969658851623535
+      },
+      {
+        "sample_id": 52,
+        "success": false,
+        "time": 2.5117223262786865
+      },
+      {
+        "sample_id": 53,
+        "success": false,
+        "time": 2.487374782562256
+      },
+      {
+        "sample_id": 54,
+        "success": false,
+        "time": 2.4446213245391846
+      },
+      {
+        "sample_id": 55,
+        "success": false,
+        "time": 2.4329984188079834
+      },
+      {
+        "sample_id": 56,
+        "success": false,
+        "time": 2.4456400871276855
+      },
+      {
+        "sample_id": 57,
+        "success": false,
+        "time": 2.4382522106170654
+      },
+      {
+        "sample_id": 58,
+        "success": false,
+        "time": 2.437626600265503
+      },
+      {
+        "sample_id": 59,
+        "success": true,
+        "time": 2.4478790760040283,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 60,
+        "success": false,
+        "time": 2.434451103210449
+      },
+      {
+        "sample_id": 61,
+        "success": false,
+        "time": 2.4354629516601562
+      },
+      {
+        "sample_id": 62,
+        "success": false,
+        "time": 2.537724018096924
+      },
+      {
+        "sample_id": 63,
+        "success": false,
+        "time": 2.530052423477173
+      },
+      {
+        "sample_id": 64,
+        "success": false,
+        "time": 2.5408899784088135
+      },
+      {
+        "sample_id": 65,
+        "success": true,
+        "time": 2.290282726287842,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 66,
+        "success": false,
+        "time": 2.547295331954956
+      },
+      {
+        "sample_id": 67,
+        "success": false,
+        "time": 2.5330867767333984
+      },
+      {
+        "sample_id": 68,
+        "success": false,
+        "time": 2.5363712310791016
+      },
+      {
+        "sample_id": 69,
+        "success": false,
+        "time": 2.5483288764953613
+      },
+      {
+        "sample_id": 70,
+        "success": false,
+        "time": 2.557494878768921
+      },
+      {
+        "sample_id": 71,
+        "success": false,
+        "time": 2.570845365524292
+      },
+      {
+        "sample_id": 72,
+        "success": false,
+        "time": 2.5655953884124756
+      },
+      {
+        "sample_id": 73,
+        "success": false,
+        "time": 2.5709149837493896
+      },
+      {
+        "sample_id": 74,
+        "success": false,
+        "time": 2.561783790588379
+      },
+      {
+        "sample_id": 75,
+        "success": true,
+        "time": 0.5302085876464844,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 76,
+        "success": false,
+        "time": 2.539259672164917
+      },
+      {
+        "sample_id": 77,
+        "success": false,
+        "time": 2.546103000640869
+      },
+      {
+        "sample_id": 78,
+        "success": false,
+        "time": 2.5443503856658936
+      },
+      {
+        "sample_id": 79,
+        "success": true,
+        "time": 2.040968656539917,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 80,
+        "success": false,
+        "time": 2.570862293243408
+      },
+      {
+        "sample_id": 81,
+        "success": false,
+        "time": 2.5540239810943604
+      },
+      {
+        "sample_id": 82,
+        "success": false,
+        "time": 2.528132915496826
+      },
+      {
+        "sample_id": 83,
+        "success": false,
+        "time": 2.5331997871398926
+      },
+      {
+        "sample_id": 84,
+        "success": false,
+        "time": 2.5498130321502686
+      },
+      {
+        "sample_id": 85,
+        "success": false,
+        "time": 2.5514016151428223
+      },
+      {
+        "sample_id": 86,
+        "success": false,
+        "time": 2.5398590564727783
+      },
+      {
+        "sample_id": 87,
+        "success": false,
+        "time": 2.528202533721924
+      },
+      {
+        "sample_id": 88,
+        "success": true,
+        "time": 2.293640613555908,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 89,
+        "success": false,
+        "time": 2.533438205718994
+      },
+      {
+        "sample_id": 90,
+        "success": false,
+        "time": 2.533423900604248
+      },
+      {
+        "sample_id": 91,
+        "success": false,
+        "time": 2.5474977493286133
+      },
+      {
+        "sample_id": 92,
+        "success": false,
+        "time": 2.554908514022827
+      },
+      {
+        "sample_id": 93,
+        "success": false,
+        "time": 2.540724992752075
+      },
+      {
+        "sample_id": 94,
+        "success": false,
+        "time": 2.5266337394714355
+      },
+      {
+        "sample_id": 95,
+        "success": false,
+        "time": 2.5198428630828857
+      },
+      {
+        "sample_id": 96,
+        "success": true,
+        "time": 2.5220789909362793,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 97,
+        "success": false,
+        "time": 2.520554542541504
+      },
+      {
+        "sample_id": 98,
+        "success": false,
+        "time": 2.525879144668579
+      },
+      {
+        "sample_id": 99,
+        "success": false,
+        "time": 2.5336310863494873
+      }
+    ],
+    "sparsefool": [
+      {
+        "sample_id": 0,
+        "success": false,
+        "time": 0.8074970245361328
+      },
+      {
+        "sample_id": 1,
+        "success": false,
+        "time": 0.8080570697784424
+      },
+      {
+        "sample_id": 2,
+        "success": false,
+        "time": 0.8069367408752441
+      },
+      {
+        "sample_id": 3,
+        "success": true,
+        "time": 0.4565236568450928,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 4,
+        "success": false,
+        "time": 0.8099100589752197
+      },
+      {
+        "sample_id": 5,
+        "success": true,
+        "time": 0.22356700897216797,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 6,
+        "success": true,
+        "time": 0.10774922370910645,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 7,
+        "success": false,
+        "time": 0.8167402744293213
+      },
+      {
+        "sample_id": 8,
+        "success": false,
+        "time": 0.8179419040679932
+      },
+      {
+        "sample_id": 9,
+        "success": false,
+        "time": 0.8232412338256836
+      },
+      {
+        "sample_id": 10,
+        "success": false,
+        "time": 0.8212158679962158
+      },
+      {
+        "sample_id": 11,
+        "success": false,
+        "time": 0.8190882205963135
+      },
+      {
+        "sample_id": 12,
+        "success": false,
+        "time": 0.8124773502349854
+      },
+      {
+        "sample_id": 13,
+        "success": true,
+        "time": 0.6580650806427002,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 14,
+        "success": false,
+        "time": 0.8188600540161133
+      },
+      {
+        "sample_id": 15,
+        "success": true,
+        "time": 0.2642972469329834,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 16,
+        "success": false,
+        "time": 0.81026291847229
+      },
+      {
+        "sample_id": 17,
+        "success": false,
+        "time": 0.8139650821685791
+      },
+      {
+        "sample_id": 18,
+        "success": false,
+        "time": 0.8150575160980225
+      },
+      {
+        "sample_id": 19,
+        "success": false,
+        "time": 0.8132352828979492
+      },
+      {
+        "sample_id": 20,
+        "success": false,
+        "time": 0.8138294219970703
+      },
+      {
+        "sample_id": 21,
+        "success": true,
+        "time": 0.7743744850158691,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 22,
+        "success": false,
+        "time": 0.813601016998291
+      },
+      {
+        "sample_id": 23,
+        "success": false,
+        "time": 0.8088409900665283
+      },
+      {
+        "sample_id": 24,
+        "success": false,
+        "time": 0.8126401901245117
+      },
+      {
+        "sample_id": 25,
+        "success": false,
+        "time": 0.8153378963470459
+      },
+      {
+        "sample_id": 26,
+        "success": false,
+        "time": 0.8077211380004883
+      },
+      {
+        "sample_id": 27,
+        "success": false,
+        "time": 0.8182055950164795
+      },
+      {
+        "sample_id": 28,
+        "success": false,
+        "time": 0.8107414245605469
+      },
+      {
+        "sample_id": 29,
+        "success": false,
+        "time": 0.8099408149719238
+      },
+      {
+        "sample_id": 30,
+        "success": true,
+        "time": 0.226118803024292,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 31,
+        "success": true,
+        "time": 0.8097848892211914,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 32,
+        "success": false,
+        "time": 0.8161909580230713
+      },
+      {
+        "sample_id": 33,
+        "success": false,
+        "time": 0.8220257759094238
+      },
+      {
+        "sample_id": 34,
+        "success": false,
+        "time": 0.8165698051452637
+      },
+      {
+        "sample_id": 35,
+        "success": true,
+        "time": 0.5393424034118652,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 36,
+        "success": false,
+        "time": 0.8284752368927002
+      },
+      {
+        "sample_id": 37,
+        "success": false,
+        "time": 0.8139388561248779
+      },
+      {
+        "sample_id": 38,
+        "success": false,
+        "time": 0.820767879486084
+      },
+      {
+        "sample_id": 39,
+        "success": false,
+        "time": 0.8128573894500732
+      },
+      {
+        "sample_id": 40,
+        "success": true,
+        "time": 0.3409457206726074,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 41,
+        "success": true,
+        "time": 0.18627262115478516,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 42,
+        "success": true,
+        "time": 0.6605055332183838,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 43,
+        "success": true,
+        "time": 0.7753040790557861,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 44,
+        "success": true,
+        "time": 0.2665109634399414,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "time": 0.10780477523803711,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 46,
+        "success": false,
+        "time": 0.8137879371643066
+      },
+      {
+        "sample_id": 47,
+        "success": false,
+        "time": 0.8072159290313721
+      },
+      {
+        "sample_id": 48,
+        "success": false,
+        "time": 0.8100090026855469
+      },
+      {
+        "sample_id": 49,
+        "success": true,
+        "time": 0.10815572738647461,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 50,
+        "success": false,
+        "time": 0.8219025135040283
+      },
+      {
+        "sample_id": 51,
+        "success": false,
+        "time": 0.8111202716827393
+      },
+      {
+        "sample_id": 52,
+        "success": false,
+        "time": 0.8165466785430908
+      },
+      {
+        "sample_id": 53,
+        "success": false,
+        "time": 0.8130958080291748
+      },
+      {
+        "sample_id": 54,
+        "success": false,
+        "time": 0.8155536651611328
+      },
+      {
+        "sample_id": 55,
+        "success": false,
+        "time": 0.8140418529510498
+      },
+      {
+        "sample_id": 56,
+        "success": false,
+        "time": 0.815814733505249
+      },
+      {
+        "sample_id": 57,
+        "success": false,
+        "time": 0.8144094944000244
+      },
+      {
+        "sample_id": 58,
+        "success": false,
+        "time": 0.8126423358917236
+      },
+      {
+        "sample_id": 59,
+        "success": true,
+        "time": 0.45770883560180664,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 60,
+        "success": true,
+        "time": 0.7740740776062012,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 61,
+        "success": false,
+        "time": 0.8087818622589111
+      },
+      {
+        "sample_id": 62,
+        "success": false,
+        "time": 0.8109455108642578
+      },
+      {
+        "sample_id": 63,
+        "success": false,
+        "time": 0.8102767467498779
+      },
+      {
+        "sample_id": 64,
+        "success": false,
+        "time": 0.8095886707305908
+      },
+      {
+        "sample_id": 65,
+        "success": true,
+        "time": 0.4991645812988281,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 66,
+        "success": false,
+        "time": 0.8151895999908447
+      },
+      {
+        "sample_id": 67,
+        "success": false,
+        "time": 0.8215782642364502
+      },
+      {
+        "sample_id": 68,
+        "success": false,
+        "time": 0.8254117965698242
+      },
+      {
+        "sample_id": 69,
+        "success": false,
+        "time": 0.818049430847168
+      },
+      {
+        "sample_id": 70,
+        "success": true,
+        "time": 0.6628358364105225,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 71,
+        "success": false,
+        "time": 0.8219389915466309
+      },
+      {
+        "sample_id": 72,
+        "success": false,
+        "time": 0.8245823383331299
+      },
+      {
+        "sample_id": 73,
+        "success": false,
+        "time": 0.8196828365325928
+      },
+      {
+        "sample_id": 74,
+        "success": true,
+        "time": 0.6650817394256592,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 75,
+        "success": true,
+        "time": 0.15020275115966797,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 76,
+        "success": false,
+        "time": 0.8239748477935791
+      },
+      {
+        "sample_id": 77,
+        "success": false,
+        "time": 0.8247356414794922
+      },
+      {
+        "sample_id": 78,
+        "success": true,
+        "time": 0.6653213500976562,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 79,
+        "success": true,
+        "time": 0.5016045570373535,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 80,
+        "success": true,
+        "time": 0.6262454986572266,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 81,
+        "success": false,
+        "time": 0.8177249431610107
+      },
+      {
+        "sample_id": 82,
+        "success": true,
+        "time": 0.6690881252288818,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 83,
+        "success": false,
+        "time": 0.8246595859527588
+      },
+      {
+        "sample_id": 84,
+        "success": false,
+        "time": 0.8202230930328369
+      },
+      {
+        "sample_id": 85,
+        "success": true,
+        "time": 0.7021265029907227,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 86,
+        "success": false,
+        "time": 0.8174479007720947
+      },
+      {
+        "sample_id": 87,
+        "success": false,
+        "time": 0.821657657623291
+      },
+      {
+        "sample_id": 88,
+        "success": true,
+        "time": 0.5874083042144775,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 89,
+        "success": false,
+        "time": 0.8197524547576904
+      },
+      {
+        "sample_id": 90,
+        "success": false,
+        "time": 0.8359742164611816
+      },
+      {
+        "sample_id": 91,
+        "success": false,
+        "time": 0.8264045715332031
+      },
+      {
+        "sample_id": 92,
+        "success": false,
+        "time": 0.8230445384979248
+      },
+      {
+        "sample_id": 93,
+        "success": false,
+        "time": 0.8304822444915771
+      },
+      {
+        "sample_id": 94,
+        "success": false,
+        "time": 0.8183157444000244
+      },
+      {
+        "sample_id": 95,
+        "success": false,
+        "time": 0.8285994529724121
+      },
+      {
+        "sample_id": 96,
+        "success": true,
+        "time": 0.5401134490966797,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 97,
+        "success": false,
+        "time": 0.8198807239532471
+      },
+      {
+        "sample_id": 98,
+        "success": false,
+        "time": 0.8258366584777832
+      },
+      {
+        "sample_id": 99,
+        "success": false,
+        "time": 0.8187704086303711
+      }
+    ],
+    "greedy": [
+      {
+        "sample_id": 0,
+        "success": false,
+        "time": 0.6049566268920898
+      },
+      {
+        "sample_id": 1,
+        "success": false,
+        "time": 0.5542612075805664
+      },
+      {
+        "sample_id": 2,
+        "success": false,
+        "time": 0.5515062808990479
+      },
+      {
+        "sample_id": 3,
+        "success": false,
+        "time": 0.5551588535308838
+      },
+      {
+        "sample_id": 4,
+        "success": false,
+        "time": 0.5621058940887451
+      },
+      {
+        "sample_id": 5,
+        "success": true,
+        "time": 0.497955322265625,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 6,
+        "success": true,
+        "time": 0.13428139686584473,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 7,
+        "success": false,
+        "time": 0.5498285293579102
+      },
+      {
+        "sample_id": 8,
+        "success": false,
+        "time": 0.5490262508392334
+      },
+      {
+        "sample_id": 9,
+        "success": false,
+        "time": 0.5521979331970215
+      },
+      {
+        "sample_id": 10,
+        "success": false,
+        "time": 0.5487408638000488
+      },
+      {
+        "sample_id": 11,
+        "success": false,
+        "time": 0.550274133682251
+      },
+      {
+        "sample_id": 12,
+        "success": false,
+        "time": 0.5520758628845215
+      },
+      {
+        "sample_id": 13,
+        "success": false,
+        "time": 0.545811653137207
+      },
+      {
+        "sample_id": 14,
+        "success": false,
+        "time": 0.5473589897155762
+      },
+      {
+        "sample_id": 15,
+        "success": true,
+        "time": 0.3395676612854004,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 16,
+        "success": false,
+        "time": 0.544985294342041
+      },
+      {
+        "sample_id": 17,
+        "success": false,
+        "time": 0.5420091152191162
+      },
+      {
+        "sample_id": 18,
+        "success": false,
+        "time": 0.5495665073394775
+      },
+      {
+        "sample_id": 19,
+        "success": false,
+        "time": 0.5420379638671875
+      },
+      {
+        "sample_id": 20,
+        "success": false,
+        "time": 0.5647647380828857
+      },
+      {
+        "sample_id": 21,
+        "success": false,
+        "time": 0.55204176902771
+      },
+      {
+        "sample_id": 22,
+        "success": false,
+        "time": 0.5449509620666504
+      },
+      {
+        "sample_id": 23,
+        "success": false,
+        "time": 0.545569658279419
+      },
+      {
+        "sample_id": 24,
+        "success": false,
+        "time": 0.5493056774139404
+      },
+      {
+        "sample_id": 25,
+        "success": false,
+        "time": 0.5429892539978027
+      },
+      {
+        "sample_id": 26,
+        "success": false,
+        "time": 0.5457231998443604
+      },
+      {
+        "sample_id": 27,
+        "success": false,
+        "time": 0.5442569255828857
+      },
+      {
+        "sample_id": 28,
+        "success": false,
+        "time": 0.5396873950958252
+      },
+      {
+        "sample_id": 29,
+        "success": false,
+        "time": 0.5431661605834961
+      },
+      {
+        "sample_id": 30,
+        "success": true,
+        "time": 0.2861931324005127,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 31,
+        "success": false,
+        "time": 0.5535893440246582
+      },
+      {
+        "sample_id": 32,
+        "success": false,
+        "time": 0.5475859642028809
+      },
+      {
+        "sample_id": 33,
+        "success": false,
+        "time": 0.5452282428741455
+      },
+      {
+        "sample_id": 34,
+        "success": false,
+        "time": 0.5458831787109375
+      },
+      {
+        "sample_id": 35,
+        "success": false,
+        "time": 0.5528707504272461
+      },
+      {
+        "sample_id": 36,
+        "success": false,
+        "time": 0.5587351322174072
+      },
+      {
+        "sample_id": 37,
+        "success": false,
+        "time": 0.5506470203399658
+      },
+      {
+        "sample_id": 38,
+        "success": false,
+        "time": 0.5488059520721436
+      },
+      {
+        "sample_id": 39,
+        "success": false,
+        "time": 0.5498478412628174
+      },
+      {
+        "sample_id": 40,
+        "success": true,
+        "time": 0.4949336051940918,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 41,
+        "success": true,
+        "time": 0.23566389083862305,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 42,
+        "success": false,
+        "time": 0.5454118251800537
+      },
+      {
+        "sample_id": 43,
+        "success": false,
+        "time": 0.545649528503418
+      },
+      {
+        "sample_id": 44,
+        "success": true,
+        "time": 0.3902888298034668,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "time": 0.13311457633972168,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 46,
+        "success": false,
+        "time": 0.5597512722015381
+      },
+      {
+        "sample_id": 47,
+        "success": false,
+        "time": 0.5444948673248291
+      },
+      {
+        "sample_id": 48,
+        "success": false,
+        "time": 0.5467054843902588
+      },
+      {
+        "sample_id": 49,
+        "success": true,
+        "time": 0.18537378311157227,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 50,
+        "success": false,
+        "time": 0.5589065551757812
+      },
+      {
+        "sample_id": 51,
+        "success": false,
+        "time": 0.549936056137085
+      },
+      {
+        "sample_id": 52,
+        "success": false,
+        "time": 0.5530571937561035
+      },
+      {
+        "sample_id": 53,
+        "success": false,
+        "time": 0.5461690425872803
+      },
+      {
+        "sample_id": 54,
+        "success": false,
+        "time": 0.5441577434539795
+      },
+      {
+        "sample_id": 55,
+        "success": false,
+        "time": 0.5438778400421143
+      },
+      {
+        "sample_id": 56,
+        "success": false,
+        "time": 0.5454733371734619
+      },
+      {
+        "sample_id": 57,
+        "success": false,
+        "time": 0.5445642471313477
+      },
+      {
+        "sample_id": 58,
+        "success": false,
+        "time": 0.5461270809173584
+      },
+      {
+        "sample_id": 59,
+        "success": false,
+        "time": 0.5506000518798828
+      },
+      {
+        "sample_id": 60,
+        "success": false,
+        "time": 0.5541684627532959
+      },
+      {
+        "sample_id": 61,
+        "success": false,
+        "time": 0.5546457767486572
+      },
+      {
+        "sample_id": 62,
+        "success": false,
+        "time": 0.5715768337249756
+      },
+      {
+        "sample_id": 63,
+        "success": false,
+        "time": 0.5626327991485596
+      },
+      {
+        "sample_id": 64,
+        "success": false,
+        "time": 0.5540204048156738
+      },
+      {
+        "sample_id": 65,
+        "success": false,
+        "time": 0.5591139793395996
+      },
+      {
+        "sample_id": 66,
+        "success": false,
+        "time": 0.5540187358856201
+      },
+      {
+        "sample_id": 67,
+        "success": false,
+        "time": 0.5556049346923828
+      },
+      {
+        "sample_id": 68,
+        "success": false,
+        "time": 0.550687313079834
+      },
+      {
+        "sample_id": 69,
+        "success": false,
+        "time": 0.5499556064605713
+      },
+      {
+        "sample_id": 70,
+        "success": false,
+        "time": 0.548114538192749
+      },
+      {
+        "sample_id": 71,
+        "success": false,
+        "time": 0.5469639301300049
+      },
+      {
+        "sample_id": 72,
+        "success": false,
+        "time": 0.5335772037506104
+      },
+      {
+        "sample_id": 73,
+        "success": false,
+        "time": 0.5850121974945068
+      },
+      {
+        "sample_id": 74,
+        "success": false,
+        "time": 0.5786497592926025
+      },
+      {
+        "sample_id": 75,
+        "success": true,
+        "time": 0.19299554824829102,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 76,
+        "success": false,
+        "time": 0.5600008964538574
+      },
+      {
+        "sample_id": 77,
+        "success": false,
+        "time": 0.5627603530883789
+      },
+      {
+        "sample_id": 78,
+        "success": false,
+        "time": 0.5578484535217285
+      },
+      {
+        "sample_id": 79,
+        "success": true,
+        "time": 0.5356895923614502,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 80,
+        "success": false,
+        "time": 0.551405668258667
+      },
+      {
+        "sample_id": 81,
+        "success": false,
+        "time": 0.5535378456115723
+      },
+      {
+        "sample_id": 82,
+        "success": false,
+        "time": 0.5465474128723145
+      },
+      {
+        "sample_id": 83,
+        "success": false,
+        "time": 0.691213846206665
+      },
+      {
+        "sample_id": 84,
+        "success": false,
+        "time": 0.6454324722290039
+      },
+      {
+        "sample_id": 85,
+        "success": false,
+        "time": 0.5879709720611572
+      },
+      {
+        "sample_id": 86,
+        "success": false,
+        "time": 0.5692498683929443
+      },
+      {
+        "sample_id": 87,
+        "success": false,
+        "time": 0.5766074657440186
+      },
+      {
+        "sample_id": 88,
+        "success": false,
+        "time": 0.5895264148712158
+      },
+      {
+        "sample_id": 89,
+        "success": false,
+        "time": 0.5847916603088379
+      },
+      {
+        "sample_id": 90,
+        "success": false,
+        "time": 0.597999095916748
+      },
+      {
+        "sample_id": 91,
+        "success": false,
+        "time": 0.5819501876831055
+      },
+      {
+        "sample_id": 92,
+        "success": false,
+        "time": 0.5914855003356934
+      },
+      {
+        "sample_id": 93,
+        "success": false,
+        "time": 0.5635471343994141
+      },
+      {
+        "sample_id": 94,
+        "success": false,
+        "time": 0.55169677734375
+      },
+      {
+        "sample_id": 95,
+        "success": false,
+        "time": 0.5493965148925781
+      },
+      {
+        "sample_id": 96,
+        "success": false,
+        "time": 0.5556037425994873
+      },
+      {
+        "sample_id": 97,
+        "success": false,
+        "time": 0.5541651248931885
+      },
+      {
+        "sample_id": 98,
+        "success": false,
+        "time": 0.5565712451934814
+      },
+      {
+        "sample_id": 99,
+        "success": false,
+        "time": 0.5694634914398193
+      }
+    ],
+    "pixelgrad": [
+      {
+        "sample_id": 0,
+        "success": false,
+        "time": 0.601529598236084
+      },
+      {
+        "sample_id": 1,
+        "success": false,
+        "time": 0.5574674606323242
+      },
+      {
+        "sample_id": 2,
+        "success": false,
+        "time": 0.5700273513793945
+      },
+      {
+        "sample_id": 3,
+        "success": false,
+        "time": 0.5660421848297119
+      },
+      {
+        "sample_id": 4,
+        "success": false,
+        "time": 0.5640220642089844
+      },
+      {
+        "sample_id": 5,
+        "success": false,
+        "time": 0.5610527992248535
+      },
+      {
+        "sample_id": 6,
+        "success": true,
+        "time": 0.19321107864379883,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 7,
+        "success": false,
+        "time": 0.5594019889831543
+      },
+      {
+        "sample_id": 8,
+        "success": false,
+        "time": 0.5555551052093506
+      },
+      {
+        "sample_id": 9,
+        "success": false,
+        "time": 0.5566415786743164
+      },
+      {
+        "sample_id": 10,
+        "success": false,
+        "time": 0.5637784004211426
+      },
+      {
+        "sample_id": 11,
+        "success": false,
+        "time": 0.6362988948822021
+      },
+      {
+        "sample_id": 12,
+        "success": false,
+        "time": 0.6494975090026855
+      },
+      {
+        "sample_id": 13,
+        "success": false,
+        "time": 0.8333530426025391
+      },
+      {
+        "sample_id": 14,
+        "success": false,
+        "time": 0.635159969329834
+      },
+      {
+        "sample_id": 15,
+        "success": true,
+        "time": 0.4483633041381836,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 16,
+        "success": false,
+        "time": 0.606544017791748
+      },
+      {
+        "sample_id": 17,
+        "success": false,
+        "time": 0.6031672954559326
+      },
+      {
+        "sample_id": 18,
+        "success": false,
+        "time": 0.5908801555633545
+      },
+      {
+        "sample_id": 19,
+        "success": false,
+        "time": 0.5878963470458984
+      },
+      {
+        "sample_id": 20,
+        "success": false,
+        "time": 0.6026084423065186
+      },
+      {
+        "sample_id": 21,
+        "success": false,
+        "time": 0.7265243530273438
+      },
+      {
+        "sample_id": 22,
+        "success": false,
+        "time": 0.659686803817749
+      },
+      {
+        "sample_id": 23,
+        "success": false,
+        "time": 0.6194629669189453
+      },
+      {
+        "sample_id": 24,
+        "success": false,
+        "time": 0.572319507598877
+      },
+      {
+        "sample_id": 25,
+        "success": false,
+        "time": 0.5680463314056396
+      },
+      {
+        "sample_id": 26,
+        "success": false,
+        "time": 0.6236286163330078
+      },
+      {
+        "sample_id": 27,
+        "success": false,
+        "time": 0.572495698928833
+      },
+      {
+        "sample_id": 28,
+        "success": false,
+        "time": 0.5723483562469482
+      },
+      {
+        "sample_id": 29,
+        "success": false,
+        "time": 0.5497012138366699
+      },
+      {
+        "sample_id": 30,
+        "success": true,
+        "time": 0.34639406204223633,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 31,
+        "success": false,
+        "time": 0.5561552047729492
+      },
+      {
+        "sample_id": 32,
+        "success": false,
+        "time": 0.5578429698944092
+      },
+      {
+        "sample_id": 33,
+        "success": false,
+        "time": 0.5512499809265137
+      },
+      {
+        "sample_id": 34,
+        "success": false,
+        "time": 0.5682027339935303
+      },
+      {
+        "sample_id": 35,
+        "success": false,
+        "time": 0.5707442760467529
+      },
+      {
+        "sample_id": 36,
+        "success": false,
+        "time": 0.5600080490112305
+      },
+      {
+        "sample_id": 37,
+        "success": false,
+        "time": 0.5602383613586426
+      },
+      {
+        "sample_id": 38,
+        "success": false,
+        "time": 0.5588502883911133
+      },
+      {
+        "sample_id": 39,
+        "success": false,
+        "time": 0.5538790225982666
+      },
+      {
+        "sample_id": 40,
+        "success": false,
+        "time": 0.5573017597198486
+      },
+      {
+        "sample_id": 41,
+        "success": true,
+        "time": 0.24222040176391602,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 42,
+        "success": false,
+        "time": 0.5596146583557129
+      },
+      {
+        "sample_id": 43,
+        "success": false,
+        "time": 0.5565578937530518
+      },
+      {
+        "sample_id": 44,
+        "success": true,
+        "time": 0.5722229480743408,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "time": 0.13591432571411133,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 46,
+        "success": false,
+        "time": 0.564082145690918
+      },
+      {
+        "sample_id": 47,
+        "success": false,
+        "time": 0.551433801651001
+      },
+      {
+        "sample_id": 48,
+        "success": false,
+        "time": 0.5603089332580566
+      },
+      {
+        "sample_id": 49,
+        "success": true,
+        "time": 0.29236388206481934,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 50,
+        "success": false,
+        "time": 0.5561528205871582
+      },
+      {
+        "sample_id": 51,
+        "success": false,
+        "time": 0.5523293018341064
+      },
+      {
+        "sample_id": 52,
+        "success": false,
+        "time": 0.5440783500671387
+      },
+      {
+        "sample_id": 53,
+        "success": false,
+        "time": 0.5427801609039307
+      },
+      {
+        "sample_id": 54,
+        "success": false,
+        "time": 0.5509116649627686
+      },
+      {
+        "sample_id": 55,
+        "success": false,
+        "time": 0.5431756973266602
+      },
+      {
+        "sample_id": 56,
+        "success": false,
+        "time": 0.5522975921630859
+      },
+      {
+        "sample_id": 57,
+        "success": false,
+        "time": 0.5545248985290527
+      },
+      {
+        "sample_id": 58,
+        "success": false,
+        "time": 0.5566942691802979
+      },
+      {
+        "sample_id": 59,
+        "success": false,
+        "time": 0.5471148490905762
+      },
+      {
+        "sample_id": 60,
+        "success": false,
+        "time": 0.5527632236480713
+      },
+      {
+        "sample_id": 61,
+        "success": false,
+        "time": 0.5472197532653809
+      },
+      {
+        "sample_id": 62,
+        "success": false,
+        "time": 0.5486304759979248
+      },
+      {
+        "sample_id": 63,
+        "success": false,
+        "time": 0.5472357273101807
+      },
+      {
+        "sample_id": 64,
+        "success": false,
+        "time": 0.542931079864502
+      },
+      {
+        "sample_id": 65,
+        "success": false,
+        "time": 0.5410017967224121
+      },
+      {
+        "sample_id": 66,
+        "success": false,
+        "time": 0.5650110244750977
+      },
+      {
+        "sample_id": 67,
+        "success": false,
+        "time": 0.54081130027771
+      },
+      {
+        "sample_id": 68,
+        "success": false,
+        "time": 0.5486640930175781
+      },
+      {
+        "sample_id": 69,
+        "success": false,
+        "time": 0.5424704551696777
+      },
+      {
+        "sample_id": 70,
+        "success": false,
+        "time": 0.552619457244873
+      },
+      {
+        "sample_id": 71,
+        "success": false,
+        "time": 0.559053897857666
+      },
+      {
+        "sample_id": 72,
+        "success": false,
+        "time": 0.5569360256195068
+      },
+      {
+        "sample_id": 73,
+        "success": false,
+        "time": 0.5567498207092285
+      },
+      {
+        "sample_id": 74,
+        "success": false,
+        "time": 0.5507957935333252
+      },
+      {
+        "sample_id": 75,
+        "success": true,
+        "time": 0.34628963470458984,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 76,
+        "success": false,
+        "time": 0.5595052242279053
+      },
+      {
+        "sample_id": 77,
+        "success": false,
+        "time": 0.5487937927246094
+      },
+      {
+        "sample_id": 78,
+        "success": false,
+        "time": 0.5373439788818359
+      },
+      {
+        "sample_id": 79,
+        "success": false,
+        "time": 0.5523049831390381
+      },
+      {
+        "sample_id": 80,
+        "success": false,
+        "time": 0.5604097843170166
+      },
+      {
+        "sample_id": 81,
+        "success": false,
+        "time": 0.5490353107452393
+      },
+      {
+        "sample_id": 82,
+        "success": false,
+        "time": 0.5575735569000244
+      },
+      {
+        "sample_id": 83,
+        "success": false,
+        "time": 0.5587372779846191
+      },
+      {
+        "sample_id": 84,
+        "success": false,
+        "time": 0.5456397533416748
+      },
+      {
+        "sample_id": 85,
+        "success": false,
+        "time": 0.5497210025787354
+      },
+      {
+        "sample_id": 86,
+        "success": false,
+        "time": 0.5571684837341309
+      },
+      {
+        "sample_id": 87,
+        "success": false,
+        "time": 0.5532708168029785
+      },
+      {
+        "sample_id": 88,
+        "success": false,
+        "time": 0.5571801662445068
+      },
+      {
+        "sample_id": 89,
+        "success": false,
+        "time": 0.5571994781494141
+      },
+      {
+        "sample_id": 90,
+        "success": false,
+        "time": 0.5587308406829834
+      },
+      {
+        "sample_id": 91,
+        "success": false,
+        "time": 0.5604875087738037
+      },
+      {
+        "sample_id": 92,
+        "success": false,
+        "time": 0.5515305995941162
+      },
+      {
+        "sample_id": 93,
+        "success": false,
+        "time": 0.5581302642822266
+      },
+      {
+        "sample_id": 94,
+        "success": false,
+        "time": 0.568873405456543
+      },
+      {
+        "sample_id": 95,
+        "success": false,
+        "time": 0.5653824806213379
+      },
+      {
+        "sample_id": 96,
+        "success": false,
+        "time": 0.5634722709655762
+      },
+      {
+        "sample_id": 97,
+        "success": false,
+        "time": 0.5644729137420654
+      },
+      {
+        "sample_id": 98,
+        "success": false,
+        "time": 0.5546011924743652
+      },
+      {
+        "sample_id": 99,
+        "success": false,
+        "time": 0.5517163276672363
+      }
+    ],
+    "randomsparse": [
+      {
+        "sample_id": 0,
+        "success": false,
+        "time": 0.9862232208251953
+      },
+      {
+        "sample_id": 1,
+        "success": false,
+        "time": 0.97312331199646
+      },
+      {
+        "sample_id": 2,
+        "success": false,
+        "time": 0.9916102886199951
+      },
+      {
+        "sample_id": 3,
+        "success": false,
+        "time": 0.9858362674713135
+      },
+      {
+        "sample_id": 4,
+        "success": false,
+        "time": 0.9672658443450928
+      },
+      {
+        "sample_id": 5,
+        "success": false,
+        "time": 0.985266923904419
+      },
+      {
+        "sample_id": 6,
+        "success": true,
+        "time": 0.8403706550598145,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 7,
+        "success": false,
+        "time": 1.0137543678283691
+      },
+      {
+        "sample_id": 8,
+        "success": false,
+        "time": 1.0018837451934814
+      },
+      {
+        "sample_id": 9,
+        "success": false,
+        "time": 0.9664492607116699
+      },
+      {
+        "sample_id": 10,
+        "success": false,
+        "time": 0.9773249626159668
+      },
+      {
+        "sample_id": 11,
+        "success": false,
+        "time": 0.9160816669464111
+      },
+      {
+        "sample_id": 12,
+        "success": false,
+        "time": 0.8443682193756104
+      },
+      {
+        "sample_id": 13,
+        "success": false,
+        "time": 0.8551976680755615
+      },
+      {
+        "sample_id": 14,
+        "success": false,
+        "time": 0.8541867733001709
+      },
+      {
+        "sample_id": 15,
+        "success": false,
+        "time": 0.8598768711090088
+      },
+      {
+        "sample_id": 16,
+        "success": false,
+        "time": 0.8555543422698975
+      },
+      {
+        "sample_id": 17,
+        "success": false,
+        "time": 0.8697364330291748
+      },
+      {
+        "sample_id": 18,
+        "success": false,
+        "time": 0.8605778217315674
+      },
+      {
+        "sample_id": 19,
+        "success": false,
+        "time": 0.8443000316619873
+      },
+      {
+        "sample_id": 20,
+        "success": false,
+        "time": 0.8626737594604492
+      },
+      {
+        "sample_id": 21,
+        "success": false,
+        "time": 0.8350515365600586
+      },
+      {
+        "sample_id": 22,
+        "success": false,
+        "time": 0.8646140098571777
+      },
+      {
+        "sample_id": 23,
+        "success": false,
+        "time": 0.8482921123504639
+      },
+      {
+        "sample_id": 24,
+        "success": false,
+        "time": 0.8656141757965088
+      },
+      {
+        "sample_id": 25,
+        "success": false,
+        "time": 0.8741652965545654
+      },
+      {
+        "sample_id": 26,
+        "success": false,
+        "time": 0.8943066596984863
+      },
+      {
+        "sample_id": 27,
+        "success": false,
+        "time": 0.8616926670074463
+      },
+      {
+        "sample_id": 28,
+        "success": false,
+        "time": 0.8716638088226318
+      },
+      {
+        "sample_id": 29,
+        "success": false,
+        "time": 0.8765935897827148
+      },
+      {
+        "sample_id": 30,
+        "success": false,
+        "time": 0.852175235748291
+      },
+      {
+        "sample_id": 31,
+        "success": false,
+        "time": 0.8864243030548096
+      },
+      {
+        "sample_id": 32,
+        "success": false,
+        "time": 0.8528225421905518
+      },
+      {
+        "sample_id": 33,
+        "success": false,
+        "time": 0.8449485301971436
+      },
+      {
+        "sample_id": 34,
+        "success": false,
+        "time": 0.8398458957672119
+      },
+      {
+        "sample_id": 35,
+        "success": false,
+        "time": 0.8386318683624268
+      },
+      {
+        "sample_id": 36,
+        "success": false,
+        "time": 0.8626399040222168
+      },
+      {
+        "sample_id": 37,
+        "success": false,
+        "time": 0.8699066638946533
+      },
+      {
+        "sample_id": 38,
+        "success": false,
+        "time": 0.8522109985351562
+      },
+      {
+        "sample_id": 39,
+        "success": false,
+        "time": 0.8453707695007324
+      },
+      {
+        "sample_id": 40,
+        "success": false,
+        "time": 0.8524501323699951
+      },
+      {
+        "sample_id": 41,
+        "success": false,
+        "time": 0.8871572017669678
+      },
+      {
+        "sample_id": 42,
+        "success": false,
+        "time": 0.9236350059509277
+      },
+      {
+        "sample_id": 43,
+        "success": false,
+        "time": 0.8716213703155518
+      },
+      {
+        "sample_id": 44,
+        "success": false,
+        "time": 0.8407883644104004
+      },
+      {
+        "sample_id": 45,
+        "success": true,
+        "time": 0.19729185104370117,
+        "l0": 0.0,
+        "l2": 0.0,
+        "ssim": 0.0
+      },
+      {
+        "sample_id": 46,
+        "success": false,
+        "time": 0.8648104667663574
+      },
+      {
+        "sample_id": 47,
+        "success": false,
+        "time": 0.8470234870910645
+      },
+      {
+        "sample_id": 48,
+        "success": false,
+        "time": 0.8595399856567383
+      },
+      {
+        "sample_id": 49,
+        "success": false,
+        "time": 0.857762336730957
+      },
+      {
+        "sample_id": 50,
+        "success": false,
+        "time": 0.8448491096496582
+      },
+      {
+        "sample_id": 51,
+        "success": false,
+        "time": 0.837597131729126
+      },
+      {
+        "sample_id": 52,
+        "success": false,
+        "time": 0.8700077533721924
+      },
+      {
+        "sample_id": 53,
+        "success": false,
+        "time": 0.8740675449371338
+      },
+      {
+        "sample_id": 54,
+        "success": false,
+        "time": 0.8422539234161377
+      },
+      {
+        "sample_id": 55,
+        "success": false,
+        "time": 0.8336710929870605
+      },
+      {
+        "sample_id": 56,
+        "success": false,
+        "time": 0.8553094863891602
+      },
+      {
+        "sample_id": 57,
+        "success": false,
+        "time": 0.8678596019744873
+      },
+      {
+        "sample_id": 58,
+        "success": false,
+        "time": 0.8835041522979736
+      },
+      {
+        "sample_id": 59,
+        "success": false,
+        "time": 0.8517787456512451
+      },
+      {
+        "sample_id": 60,
+        "success": false,
+        "time": 0.8596005439758301
+      },
+      {
+        "sample_id": 61,
+        "success": false,
+        "time": 0.8593003749847412
+      },
+      {
+        "sample_id": 62,
+        "success": false,
+        "time": 1.0194268226623535
+      },
+      {
+        "sample_id": 63,
+        "success": false,
+        "time": 0.9787378311157227
+      },
+      {
+        "sample_id": 64,
+        "success": false,
+        "time": 0.9780399799346924
+      },
+      {
+        "sample_id": 65,
+        "success": false,
+        "time": 1.153573751449585
+      },
+      {
+        "sample_id": 66,
+        "success": false,
+        "time": 1.0511610507965088
+      },
+      {
+        "sample_id": 67,
+        "success": false,
+        "time": 1.0909533500671387
+      },
+      {
+        "sample_id": 68,
+        "success": false,
+        "time": 1.0431187152862549
+      },
+      {
+        "sample_id": 69,
+        "success": false,
+        "time": 1.0351340770721436
+      },
+      {
+        "sample_id": 70,
+        "success": false,
+        "time": 1.0245575904846191
+      },
+      {
+        "sample_id": 71,
+        "success": false,
+        "time": 1.0328686237335205
+      },
+      {
+        "sample_id": 72,
+        "success": false,
+        "time": 1.0456411838531494
+      },
+      {
+        "sample_id": 73,
+        "success": false,
+        "time": 1.022907018661499
+      },
+      {
+        "sample_id": 74,
+        "success": false,
+        "time": 1.0976545810699463
+      },
+      {
+        "sample_id": 75,
+        "success": false,
+        "time": 1.0566236972808838
+      },
+      {
+        "sample_id": 76,
+        "success": false,
+        "time": 1.0609419345855713
+      },
+      {
+        "sample_id": 77,
+        "success": false,
+        "time": 1.0583059787750244
+      },
+      {
+        "sample_id": 78,
+        "success": false,
+        "time": 1.0327825546264648
+      },
+      {
+        "sample_id": 79,
+        "success": false,
+        "time": 1.0649988651275635
+      },
+      {
+        "sample_id": 80,
+        "success": false,
+        "time": 1.0355315208435059
+      },
+      {
+        "sample_id": 81,
+        "success": false,
+        "time": 1.0378530025482178
+      },
+      {
+        "sample_id": 82,
+        "success": false,
+        "time": 1.0537793636322021
+      },
+      {
+        "sample_id": 83,
+        "success": false,
+        "time": 1.036585807800293
+      },
+      {
+        "sample_id": 84,
+        "success": false,
+        "time": 1.03135085105896
+      },
+      {
+        "sample_id": 85,
+        "success": false,
+        "time": 1.0436720848083496
+      },
+      {
+        "sample_id": 86,
+        "success": false,
+        "time": 1.0915954113006592
+      },
+      {
+        "sample_id": 87,
+        "success": false,
+        "time": 1.1262726783752441
+      },
+      {
+        "sample_id": 88,
+        "success": false,
+        "time": 0.9843039512634277
+      },
+      {
+        "sample_id": 89,
+        "success": false,
+        "time": 1.0203607082366943
+      },
+      {
+        "sample_id": 90,
+        "success": false,
+        "time": 1.0564544200897217
+      },
+      {
+        "sample_id": 91,
+        "success": false,
+        "time": 1.0334222316741943
+      },
+      {
+        "sample_id": 92,
+        "success": false,
+        "time": 1.0283379554748535
+      },
+      {
+        "sample_id": 93,
+        "success": false,
+        "time": 1.0313327312469482
+      },
+      {
+        "sample_id": 94,
+        "success": false,
+        "time": 1.0354719161987305
+      },
+      {
+        "sample_id": 95,
+        "success": false,
+        "time": 1.0166428089141846
+      },
+      {
+        "sample_id": 96,
+        "success": false,
+        "time": 1.015632152557373
+      },
+      {
+        "sample_id": 97,
+        "success": false,
+        "time": 1.0844366550445557
+      },
+      {
+        "sample_id": 98,
+        "success": false,
+        "time": 1.079509973526001
+      },
+      {
+        "sample_id": 99,
+        "success": false,
+        "time": 1.075000286102295
+      }
+    ]
+  }
+}
