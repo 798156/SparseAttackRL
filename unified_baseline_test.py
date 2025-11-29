@@ -1,8 +1,3 @@
-"""
-统一的Baseline测试框架
-严格统一的参数配置，测试JSMA和SparseFool
-"""
-
 import torch
 import torch.nn as nn
 import torchvision
@@ -17,18 +12,17 @@ from skimage.metrics import structural_similarity as ssim_func
 from jsma_attack import jsma_attack
 from sparsefool_attack import sparsefool_attack
 
-# ============= 统一参数配置 =============
 UNIFIED_CONFIG = {
     'JSMA': {
         'max_pixels': 10,
-        'theta': 1.0  # 统一使用1.0
+        'theta': 1.0 
     },
     'SparseFool': {
         'max_iterations': 20,
         'lambda_': 3.0
     },
-    'test_samples': 30,  # 每个模型30样本
-    'random_seed': 42  # 固定随机种子保证可重复性
+    'test_samples': 30,  
+    'random_seed': 42
 }
 
 def load_cifar10_data():
@@ -40,7 +34,6 @@ def load_cifar10_data():
     return testset
 
 def load_model(model_name, device):
-    """加载指定模型"""
     if model_name == 'ResNet18':
         model = torchvision.models.resnet18(weights=None)
         num_ftrs = model.fc.in_features
@@ -64,20 +57,15 @@ def load_model(model_name, device):
     return model
 
 def calculate_metrics(original, adversarial):
-    """计算评估指标"""
-    # 确保两个张量都在同一设备上
     device = original.device
     if adversarial.device != device:
         adversarial = adversarial.to(device)
     
-    # L0范数（修改像素数）
     diff = (adversarial - original).abs()
     l0 = (diff.sum(dim=0) > 1e-5).sum().item()
     
-    # L2范数
     l2 = torch.norm(diff).item()
     
-    # SSIM（需要转到CPU和numpy）
     orig_np = original.detach().cpu().numpy().transpose(1, 2, 0)
     adv_np = adversarial.detach().cpu().numpy().transpose(1, 2, 0)
     
@@ -92,7 +80,7 @@ def calculate_metrics(original, adversarial):
 def test_single_method_model(method_name, model_name, model, testset, device, num_samples=30):
     """测试单个方法在单个模型上的表现"""
     print(f"\n{'='*80}")
-    print(f"🎯 测试: {model_name} + {method_name}")
+    print(f"测试: {model_name} + {method_name}")
     print(f"{'='*80}")
     
     # 获取参数
@@ -122,7 +110,7 @@ def test_single_method_model(method_name, model_name, model, testset, device, nu
         if pred == label:
             selected_samples.append((idx, image, label))
     
-    print(f"✅ 选择了 {len(selected_samples)} 个正确分类的样本\n")
+    print(f"选择了 {len(selected_samples)} 个正确分类的样本\n")
     
     # 执行攻击
     success_count = 0
@@ -185,7 +173,7 @@ def test_single_method_model(method_name, model_name, model, testset, device, nu
                 })
         
         except Exception as e:
-            print(f"\n⚠️  样本{i}出错: {str(e)}")
+            print(f"\n样本{i}出错: {str(e)}")
             results['details'].append({
                 'sample_id': int(idx),
                 'success': False,
@@ -199,7 +187,7 @@ def test_single_method_model(method_name, model_name, model, testset, device, nu
     avg_ssim = np.mean(results['ssim']) if results['ssim'] else 0
     avg_time = np.mean(results['time']) if results['time'] else 0
     
-    print(f"\n📊 结果:")
+    print(f"\n结果:")
     print(f"  ASR: {success_count}/{len(selected_samples)} = {asr:.1f}%")
     print(f"  平均L0: {avg_l0:.2f}")
     print(f"  平均L2: {avg_l2:.4f}")
@@ -227,23 +215,23 @@ def main():
     print("\n" + "="*80)
     print("🔬 统一Baseline测试框架")
     print("="*80)
-    print("\n💡 统一参数配置:")
+    print("\n 统一参数配置:")
     print(f"  JSMA: max_pixels={UNIFIED_CONFIG['JSMA']['max_pixels']}, "
           f"theta={UNIFIED_CONFIG['JSMA']['theta']}")
     print(f"  SparseFool: max_iterations={UNIFIED_CONFIG['SparseFool']['max_iterations']}, "
           f"lambda_={UNIFIED_CONFIG['SparseFool']['lambda_']}")
     print(f"  样本数: {UNIFIED_CONFIG['test_samples']}/模型")
     print(f"  随机种子: {UNIFIED_CONFIG['random_seed']}")
-    print(f"\n⏰ 预计总时间: 2-3分钟")
-    print(f"✅ GPU友好，温度低\n")
+    print(f"\n 预计总时间: 2-3分钟")
+    print(f" GPU友好，温度低\n")
     
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    print(f"🖥️  设备: {device}\n")
+    print(f"  设备: {device}\n")
     
     # 加载数据
-    print("📦 加载CIFAR-10数据...")
+    print(" 加载CIFAR-10数据...")
     testset = load_cifar10_data()
-    print(f"✅ 数据加载完成\n")
+    print(f" 数据加载完成\n")
     
     # 测试矩阵：3模型 × 2方法
     models = ['ResNet18', 'VGG16', 'MobileNetV2']
@@ -254,11 +242,11 @@ def main():
     
     for model_name in models:
         print(f"\n{'='*80}")
-        print(f"📦 加载模型: {model_name}")
+        print(f" 加载模型: {model_name}")
         print(f"{'='*80}")
         
         model = load_model(model_name, device)
-        print(f"✅ {model_name} 加载完成")
+        print(f" {model_name} 加载完成")
         
         for method_name in methods:
             result = test_single_method_model(
@@ -280,13 +268,11 @@ def main():
     
     total_time = time.time() - start_time_total
     
-    # 生成汇总表
     print(f"\n{'='*80}")
-    print("📊 完整实验结果汇总")
+    print("完整实验结果汇总")
     print(f"{'='*80}")
     print(f"总耗时: {total_time/60:.1f}分钟\n")
     
-    # 按模型分组显示
     for model_name in models:
         print(f"\n【{model_name}】")
         print(f"{'方法':<12} {'ASR':<8} {'平均L0':<10} {'平均L2':<10} {'平均SSIM':<12} {'时间'}")
@@ -307,18 +293,17 @@ def main():
     with open(output_dir / 'unified_summary.json', 'w') as f:
         json.dump(summary, f, indent=2)
     
-    print(f"\n💾 所有结果已保存到: {output_dir}")
+    print(f"\n 所有结果已保存到: {output_dir}")
     
     print(f"\n{'='*80}")
-    print("🎉 6组基线实验全部完成！")
+    print(" 6组基线实验全部完成！")
     print(f"{'='*80}")
-    print("\n✅ 获得的数据:")
+    print("\n 获得的数据:")
     print("  - 3个模型（ResNet18, VGG16, MobileNetV2）")
     print("  - 2种方法（JSMA, SparseFool）")
     print("  - 统一的参数配置")
     print("  - 每个组合30个样本")
     print("  - 总计180个测试")
-    print("\n💡 这些数据可以直接用于论文！\n")
 
 if __name__ == "__main__":
     main()
