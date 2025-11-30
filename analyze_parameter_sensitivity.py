@@ -203,7 +203,7 @@ class ParameterSensitivityAnalyzer:
                 })
                 
             except Exception as e:
-                print(f"⚠️ Sample {idx} error: {e}")
+                print(f"Sample {idx} error: {e}")
                 results.append({
                     'sample_idx': idx,
                     'success': False,
@@ -236,7 +236,7 @@ class ParameterSensitivityAnalyzer:
             'successful_attacks': successful_attacks
         }
         
-        print(f"\n📊 Results: ASR={asr:.1f}%, L0={avg_l0:.2f}, Time={avg_time:.3f}s")
+        print(f"\n Results: ASR={asr:.1f}%, L0={avg_l0:.2f}, Time={avg_time:.3f}s")
         
         return summary, results
     
@@ -244,7 +244,6 @@ class ParameterSensitivityAnalyzer:
         """运行完整的敏感性分析"""
         print(f"\n{'🚀'*30}")
         print("Starting Parameter Sensitivity Analysis")
-        print(f"{'🚀'*30}")
         print(f"\nDevice: {self.device}")
         print(f"Model: {CONFIG['model_name']}")
         print(f"Samples per config: {CONFIG['samples_per_config']}")
@@ -278,11 +277,9 @@ class ParameterSensitivityAnalyzer:
         # 生成分析报告和图表
         self.generate_visualizations()
         self.generate_report()
-        
-        print(f"\n\n{'🎉'*30}")
+    
         print("Parameter Sensitivity Analysis Completed!")
-        print(f"{'🎉'*30}")
-        print(f"\n✅ All results saved to: {self.output_dir}")
+        print(f"\n All results saved to: {self.output_dir}")
     
     def _save_method_results(self, method_name, results):
         """保存单个方法的结果"""
@@ -552,13 +549,13 @@ The goal is to identify optimal parameters and assess method stability.
         
         # 也打印摘要到控制台
         print(f"\n{'='*60}")
-        print("📊 ANALYSIS SUMMARY")
+        print(" ANALYSIS SUMMARY")
         print(f"{'='*60}")
-        print("\n🏆 Most Stable Methods (by parameter sensitivity):")
+        print("\n Most Stable Methods (by parameter sensitivity):")
         for rank, (method_name, scores) in enumerate(sorted_methods[:3], 1):
             print(f"  {rank}. {method_name} (Std: {scores['std']:.2f}%)")
         
-        print("\n🎯 Optimal Parameters:")
+        print("\n Optimal Parameters:")
         for method_name, method_results in self.results.items():
             best = max(method_results, key=lambda x: x['summary']['asr'])
             param_name = PARAMETER_CONFIGS[method_name]['param_name']
@@ -569,15 +566,12 @@ def main():
     # 设置随机种子
     torch.manual_seed(CONFIG['random_seed'])
     np.random.seed(CONFIG['random_seed'])
-    
-    # 创建分析器
+
     analyzer = ParameterSensitivityAnalyzer()
-    
-    # 运行分析
     analyzer.run_sensitivity_analysis()
     
-    print("\n✅ Parameter sensitivity analysis complete!")
-    print(f"📁 Results saved to: {CONFIG['output_dir']}")
+    print("\n Parameter sensitivity analysis complete!")
+    print(f" Results saved to: {CONFIG['output_dir']}")
     
     return 0
 
