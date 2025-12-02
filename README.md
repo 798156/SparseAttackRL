@@ -1010,7 +1010,7 @@ python statistical_analysis.py
 ```
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2025 [Jiaxin Liu]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -1040,9 +1040,9 @@ SOFTWARE.
 ```bibtex
 @article{sparseattackrl2024,
   title={A Comprehensive Comparison of Sparse Adversarial Attack Methods: Effectiveness, Efficiency, and Robustness Analysis},
-  author={[Your Name]},
+  author={[NULL]},
   journal={The Computer Journal},
-  year={2024},
+  year={2025},
   publisher={Oxford University Press}
 }
 ```
@@ -1051,11 +1051,8 @@ SOFTWARE.
 
 ## 📞 联系方式
 
-- **项目主页**: https://github.com/your-username/SparseAttackRL
-- **问题反馈**: [GitHub Issues](https://github.com/your-username/SparseAttackRL/issues)
-- **邮箱**: your-email@domain.com
-- **论文**: [arXiv链接] / [期刊链接]
-
+- **邮箱**: 1412118291@qq.com
+- 
 ---
 
 ## 🙏 致谢
@@ -1072,65 +1069,18 @@ SOFTWARE.
 感谢所有为对抗鲁棒性研究做出贡献的研究者！
 
 ---
+## 🤝 如何贡献
 
-## 🔮 未来工作
+1. **新增攻击方法** - 在attack_adapters.py中添加新攻击
+2. **扩展评估指标** - 在evaluation_metrics.py中定义新指标
+3. **改进可视化** - 在visualization.py中添加新图表
+4. **优化性能** - 优化核心算法实现
 
-我们计划在以下方向继续研究：
 
-1. **扩展到其他领域**
-   - 视频对抗攻击
-   - 音频对抗攻击
-   - 文本对抗攻击
-
-2. **自适应防御**
-   - 针对L0攻击的专门防御
-   - 多威胁模型联合防御
-
-3. **认证鲁棒性**
-   - L0约束下的理论保证
-   - 可证明的防御方法
-
-4. **迁移性研究**
-   - 跨模型攻击迁移
-   - 跨数据集泛化
-
-5. **实际部署**
-   - 物理世界攻击实验
-   - 实时防御系统
-
----
-
-## 📝 更新日志
-
-### v1.0.0 (2024-11-08)
-
-- ✅ 完成5种攻击方法实现
-- ✅ 完成统一实验框架
-- ✅ 完成所有深度分析实验
-- ✅ 完成论文定稿
-- ✅ 发布完整代码和数据
-
-### v0.9.0 (2024-11-01)
-
-- ✅ 完成防御模型测试
-- ✅ 完成参数敏感性分析
-- ✅ 完成失败案例分析
-
-### v0.8.0 (2024-10-25)
-
-- ✅ 完成基线实验
-- ✅ 完成5方法对比分析
-
-### v0.5.0 (2024-10-18)
-
-- ✅ 完成所有攻击方法实现
-- ✅ 完成模型训练
-
----
 
 <div align="center">
 
-**⭐ 如果本项目对您有帮助，请给我们一个Star！⭐**
+**⭐ 如果本项目对您有帮助，请该项目一个Star！⭐**
 
 Made with ❤️ for Adversarial Robustness Research
 
